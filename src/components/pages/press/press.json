@@ -1,0 +1,197 @@
+[
+    {
+        "id": 1,
+        "who": "Alto Miedo",
+        "media": "Rock.com.ar",
+        "text": "Elegido entre los mejores veinte discos nacionales de 2019 por Rock.com.ar"
+    },
+    {
+        "id": 2,
+        "who": "Alto Miedo",
+        "media": "Silencio.com.ar",
+        "text": "Elegido mejor disco nacional de 2019 por 3 de los 5 editores"
+    },
+    {
+        "id": 3,
+        "who": "Alto Miedo",
+        "media": "Vorterix Radio",
+        "text": "Elegido mejor disco nacional de 2019"
+    },
+    {
+        "id": 4,
+        "who": "Alto Miedo",
+        "media": "Artezeta.com.ar",
+        "text": "Elegido mejor disco nacional de 2019"
+    },
+    {
+        "id": 5,
+        "who": "Alto Miedo",
+        "media": "La Agenda Buenos Aires, Martín Graziano",
+        "text": "“Un brindis por el fin del mundo. Y por la valentía. Como si realmente no tuviera nada que perder, El Estrellero hizo una operación a corazón abierto: esas de cable rojo o cable negro. En el preciso momento en el que el territorio común de los cinco integrantes parecía reducirse a una baldosa, comenzaron a hacer un pozo tan profundo que salieron del otro lado.”"
+    },
+    {
+        "id": 6,
+        "who": "Alto Miedo",
+        "media": "Ultrabrit, Giselle Hidalgo",
+        "text": "“Alto Miedo es la muestra más acabada de esta capacidad de El Estrellero por fagocitar elementos y transformarlos en una identidad propia, muy particular.”"
+    },
+    {
+        "id": 7,
+        "who": "Los Magos",
+        "media": "Rolling Stone, Claudio Kleiman",
+        "text": "'Rara vez una banda nueva ofrece un trabajo uniformemente excelente en todos los aspectos: melodías, letras, arreglos vocales, guitarras y concepto. Los dos compositores principales, Lautaro Barceló y Juan Irio, se diferencian pero a la vez confluyen en una música con climas de ensueño y aires de psicodelia'"
+    },
+    {
+        "id": 8,
+        "who": "Los Magos",
+        "media": "Ganador del Premio Mr. E a mejor disco argentino independiente",
+        "text": "'“Los Magos” es la confirmación de la certeza que El Estrellero es una banda extraordinaria y que su música es de una riqueza y un volumen muy poco frecuentes'"
+    },
+    {
+        "id": 9,
+        "who": "Los Magos",
+        "media": "Martín Graziano, Diario La Nación",
+        "text": "'“Si el Indec midiera el arco melódico de las bandas de rock, El Estrellero estaría en la punta púrpura de sus tablas de estadísticas”'"
+    },
+    {
+        "id": 10,
+        "who": "Los Magos",
+        "media": "Los Inrocks. “El deseo de fascinar” elegida entre las 20 mejores canciones de Agosto.",
+        "text": "'Tu nueva banda favorita'"
+    },
+    {
+        "id": 11,
+        "who": "Los Magos",
+        "media": "Página/12",
+        "text": "'Los magos encarna una figura simbólica mediante la cual se rinde homenaje a la alquimia producida entre todo eso que conmueve, desde un líder carismático hasta una obra de arte, y el sujeto encantado'"
+    },
+    {
+        "id": 12,
+        "who": "Los Magos",
+        "media": "ArteZeta",
+        "text": "Los Magos, candidato a rankear alto entre lo mejor del año en cuanto a cosecha nacional"
+    },
+    {
+        "id": 13,
+        "who": "Los Magos",
+        "media": "Agencia Télam",
+        "text": "El Estrellero da un salto con grandes canciones en el álbum “Los Magos”"
+    },
+    {
+        "id": 14,
+        "who": "Los Magos",
+        "media": "José Maldonado, Diario El Día de La Plata",
+        "text": "'El disco recién editado por el sello Pontaco se presenta como un manifiesto estético, poético y, también, político.'"
+    },
+    {
+        "id": 15,
+        "who": "Los Magos",
+        "media": "AgendArte",
+        "text": "'Un cúmulo de 11 canciones conversan desde una fuerte apuesta estética, metafórica y política, a través de una encantadora fusión de rock, pop, psicodelia y baile, sin perder de vista el culto a la canción.'"
+    },
+    {
+        "id": 16,
+        "who": "Drama",
+        "media": "Reseña de Oscar Jalil para Rolling Stone, 4 estrellas",
+        "text": "“El arranque de Drama dice tanto de El Estrellero como esas primeras impresiones de una pintura inolvidable. Es pop, no hay duda, pero con la concepción renacentista de construir catedrales de tres minutos.”"
+    },
+    {
+        "id": 17,
+        "who": "Drama",
+        "media": "Reseña en Premio Mr. E",
+        "text": "“La experiencia de la escucha es ineludible. Con la nariz siempre al viento y guiados por dos auténticas estrellas del rock argentino la banda de La Plata saca uno de los mejores del año.“"
+    },
+    {
+        "id": 18,
+        "who": "Drama",
+        "media": "Suplemento Radar por Juan Andrade, Página/12.",
+        "text": "“Con melodías pop épicas y embriagadoras, El Estrellero viene desmarcándose como la revelación del año, al punto de que sin siquiera tener editada su música en soporte físico –su disco Drama es todavía solamente digital– fueron invitados a tocar al Festival BUE”"
+    },
+    {
+        "id": 19,
+        "who": "Drama",
+        "media": "Revista NAN",
+        "text": "“En la lírica melancólica de Barceló e Irio quizá esté otro de los fuertes de este disco, que cuenta con una poesía que le saca varias cabezas de ventaja al común de las bandas independientes de Argentina”"
+    },
+    {
+        "id": 20,
+        "who": "Drama",
+        "media": "IndieHearts",
+        "text": "“Escuchar Drama es, en pocas palabras, brindar por la música. Y tiene un sabor más rico porque es una banda de acá, que suena increíble.”"
+    },
+    {
+        "id": 21,
+        "who": "Drama",
+        "media": "Billboard",
+        "text": "“El Estrellero es la nueva sensación del indie platense (y, por qué no, del indie nacional), y está bien que así sea.”"
+    },
+    {
+        "id": 22,
+        "who": "Drama",
+        "media": "ArteZeta",
+        "text": "“Era lógico y esperable, pero sorprendió igual: El Estrellero publicó Drama, uno de los grandes discos del año para el rock argentino.”"
+    },
+    {
+        "id": 23,
+        "who": "Drama",
+        "media": "La Nación",
+        "text": "“La Plata sigue entregando a los mejores grupos de la escena local y esta banda formada por la dupla autoral y verdaderos veteranos del indie como Lautaro Barceló y Juan Irio (Orquesta de Perros, Miro y su Fabulosa Orquesta de Juguete y The Siniestros) no es la excepción”"
+    },
+    {
+        "id": 24,
+        "who": "Drama",
+        "media": "Pastizales Burning",
+        "text": "“El Estrellero llega desde la ciudad de las diagonales; cargados de un repertorio que reivindica el cancionero Pop-Rock, con una vuelta de tuerca que derrocha estilo y personalidad.”"
+    },
+    {
+        "id": 25,
+        "who": "Drama",
+        "media": "Revista Tiburón",
+        "text": "“El debut discográfico de El Estrellero muestra un trabajo arduo de ingeniería sonora, producto de cientos de ensayos, y deja en evidencia la creatividad contenida que desborda en cada uno de sus canciones”"
+    },
+    {
+        "id": 26,
+        "who": "Drama",
+        "media": "Revista Ondular",
+        "text": "“En los últimos meses generaron cuanto menos el entusiasmo de todo aquel que haya tenido la oportunidad de escuchar sus canciones.”"
+    },
+    {
+        "id": 27,
+        "who": "Drama",
+        "media": "Revista Va Viene",
+        "text": "“El Estrellero, banda joven promesa de jóvenes promesas, comienza a cumplir bajo sus propias reglas.”"
+    },
+    {
+        "id": 28,
+        "who": "Drama",
+        "media": "Revista POTQ",
+        "text": "“La poesía, pieza angular en la composición de ambos, es un flashback a Sui Generis y las letras que Charly García con Nito Mestre escribieron en los comienzos del rock argentino. Más aún, Drama (Fuego Amigo Discos, 2016) –su placa debut- comparte momentos sonoros con aquella banda refinada de Buenos Aires.”"
+    },
+    {
+        "id": 29,
+        "who": "Drama",
+        "media": "Proyecto Spoiler",
+        "text": "“El álbum debut de la banda proveniente de La Plata amalgama y conecta mundos a través de melodías diáfanas, poesía romántica y guitarras siderales.”"
+    },
+    {
+        "id": 30,
+        "who": "Drama",
+        "media": "Indie Hoy",
+        "text": "“…viaje que es guiado por letras repletas de sentimientos que van dejando canciones donde la melancolía puede convivir con la alegría sin que haya un solo problema.”"
+    },
+    {
+        "id": 31,
+        "who": "Drama",
+        "text": "Reconocido como uno de los discos del año por Premio Mr. E, ArteZeta, La Música es del Aire, Pastizales Burning, Revista Ondular, Revista La Tundra."
+    },
+    {
+        "id": 32,
+        "who": "Drama",
+        "text": "Premio a Mejor Canción en “Fan, el programa” por “Rima”."
+    }    
+
+
+    
+]
+
+

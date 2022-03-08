@@ -1,0 +1,21 @@
+{
+    "home": " 主 頁 ",
+    "bio": "伝記",
+    "menu": [
+        {
+            "music": "音楽",
+            "art": "鼻汁つ",
+            "computer": "コンピうた"
+        }
+    ],
+    "music": "音楽",
+    "art": "鼻汁つ",
+    "computer": "コンピうた",
+    "news": "ニュース",
+    "discography": "ディスコグラフィー",
+    "press": "レビュー",
+    "workshops": "ワークショップ",
+    "contact": "連絡先",
+    "index": "inicio",
+    "design": "サイト："
+}

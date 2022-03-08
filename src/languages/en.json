@@ -1,0 +1,18 @@
+{
+    "title": "Lautaro Barceló's portfolio",
+    "menu": [
+        {
+            "music": "Music",
+            "art": "Art",
+            "computer": "Computers"
+        }
+    ],
+    "bio": "bio",
+    "discography": "discography",
+    "press": "press",
+    "news": "news",
+    "index": "index",
+    "home": "H O M E",
+    "design": "site by"
+
+}

@@ -1,0 +1,7 @@
+.notescontainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 1%;
+    column-gap: 1%;
+    margin-bottom: 15%;
+}

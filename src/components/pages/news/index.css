@@ -1,0 +1,52 @@
+.notas {
+    display:grid;
+    
+}
+
+.nota {
+    position: relative;
+}
+
+.titulo {
+    font-weight:900;
+    color:black;
+    font-family: 'Helvetica Neue';
+    font-size:xxx-large;
+}
+
+.subtitulo {
+    font-weight:300;
+    color:black;
+    font-family: 'Helvetica Neue';
+    font-size:xx-large;
+    margin-bottom: 4%;
+}
+
+.contenido {
+    font-weight:400;
+    color:black;
+    font-family: 'Helvetica Neue';
+    font-size:normal;
+    text-rendering: optimizeLegibility;
+}
+
+.footlink {
+    position: absolute;
+    bottom: 3%;
+    
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    font-size: large;
+    padding: 2%;
+    
+    
+}
+
+.footlink:hover {
+    color: pink;
+}
+
+.content {
+    
+}

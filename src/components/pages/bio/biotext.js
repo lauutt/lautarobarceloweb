@@ -1,0 +1,12 @@
+
+
+const text = ["Comencé mi trayectoria musical en 2006. Por entonces era aún alumno de guitarra de Germán Novarini y tallerista de canciones con Rosario Bléfari. Empecé a tocar mis canciones en un ciclo que gestionamos con Germán en la Estación Provincial, llamado “La Isla de los Paseantes”.",
+"Ahí conocí a quiénes fueran luego mis amigos y colegas cantautores del colectivo Tocate Mil, que derivara en el sello Uf Caruf!, vigente hasta 2014.",
+"Cuando dejé la facultad (las facultades, en verdad),  me puse con el Proyecto Lupacchiotto: consistía en componer y grabar una canción por día. De esas grabaciones, varias canciones fueron reversionadas más adelante en discos, como “Las Inéditas Ventajas del Puerta a Puerta”, “Roles y Oficios”, “Hay gente que solo sabe de moverse”, “Poca Obvia Canción de Amor” y algunas más.",
+"Mi primera banda fue Orquesta de Perros y nuestro primer disco Perros de Orquesta, con el Soviético, el Mago, Shandy y la Piba. Al poco tiempo entraría Lafe casi en simultáneo con la ida de la Piba y terminamos grabando otros dos discos celebratorios. Cuando se sumó Capu llegamos al clímax.",
+"También tocaba por entonces con Miro y su Fabulosa Orquesta de Juguete y en la banda solista de Laura Citarella. Fueron años muy felices, escuchando Wilco, Elliott y Dylan.",
+"En 2012 junté un equipo de mágicos para grabar un disco con todas canciones propias. Lo produjo el Ponche en Nakao Graba y junto al Dobro y Luli Muti hicimos Canto el Cuerpo Eléctrico. Luego pasarían por la banda otros amigos, como Eugenio, el Piti, Juan Borgo. Grabamos un disco y medio y fin.",
+"En 2014 recibí un mensaje de Juan Irio. La historia la contamos muchas veces, no hace falta repetir acá. Empezamos grabando “El ideal de lo común” y luego, juntos, hicimos El Estrellero. Aparecieron uno por uno, Goyo, Desaria y Baro. Sacamos 3 discos y un EP, casi todos trabajados y grabados entre Estudio El Desierto, Hollywood y DDR, para luego ser mezclados y postproducidos por Panchi en Estudios NN. Muchas canciones quedaron sin grabar y también fueron años felices.", 
+"En 2019 me retiré de los escenarios y me focalicé en otras cosas. Sigo dando clases y produciendo desde fuera de la escena, en Estudio El Desierto."]
+
+export default text 

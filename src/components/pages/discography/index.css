@@ -1,0 +1,19 @@
+.card {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.albumcontainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    row-gap: 50px;
+    column-gap: 10px;
+}
+
+.card-content {
+    background-color: rgb(247, 239, 230);
+}
+
+#stats {
+    margin: 1em;
+}

@@ -1,0 +1,18 @@
+{
+    "title": "Portfolio de Lautaro Barceló",
+    "menu": [
+        {
+            "music": "Música",
+            "art": "Arte",
+            "computer": "Computación"
+        }
+    ],
+    "bio": "biografía",
+    "discography": "discografía",
+    "press": "prensa",
+    "news": "noticias",
+    "index": "inicio",
+    "home": "P R I N C I P A L",
+    "design": "sitio por"
+    
+}
