@@ -78,9 +78,15 @@ src/
     Footer.js
     LanguageSelector.js
     Navbar.js
+  config/
+    github.js
   containers/
     Language.js
   languages/
+    news/
+      en.json
+      es.json
+      jp.json
     reviews/
       drama-es.txt
       losmagos-es.txt
@@ -102,6 +108,845 @@ README.md
 
 <files>
 This section contains the contents of the repository's files.
+
+<file path="src/config/github.js">
+// src/config/github.js
+export const githubConfig = {
+    user: 'lauutt',
+    repo: 'news',
+    branch: 'main',
+    cacheExpiration: 15 * 60 * 1000 // 15 minutos
+};
+</file>
+
+<file path="src/languages/news/en.json">
+[
+    {
+        "id": 0,
+        "date": "2024-01-09T09:11:43.511Z",
+        "title": "Inicio de 2023",
+        "subtitle": "15/02/2023",
+        "body": "Compusimos y produjimos los hits de Trenque Lauquen, la ahora multipremiada en el mundo película de Laura Citarella. Hicimos lo mismo con la próxima película de La Unión de los Ríos, próxima a estrenar por Amazon Prime. Casi todas fueron escritas en inglés, excepto una que hice en coreano. Grabamos y producimos a 15 bandas semifinalistas de Maravillosa Música, desplegando todo el potencial del estudio para proyectos audiovisuales, siendo quizás el único lugar en los alrededores en el que se puede desarrollar una locura de tal magnitud. Grabamos música incesantemente en Estudio Estudio Nakao. Pasaron docenas de artistas: produje canciones de Juan Irio, Coneus, Niños Knoll.",
+        "img": "https://nakao.studio/wp-content/uploads/2022/09/IMG_0032-1024x768.jpeg",
+        "color": "#4cc9f0",
+        "link": "www.google.com",
+        "linktext": "Link a Instagram"
+        
+    },
+    {
+        "id": 1,
+        "date": "2012-04-23T18:25:43.511Z",
+        "title": "Lo mejor del siglo",
+        "subtitle": "03/03/2023",
+        "body": "Este mes, eligieron una canción que escribí para El Estrellero como una de las mejores 300 canciones del siglo XXI en la Rolling Stone, en el puesto 237, OK Amigo",
+        "img": "https://es.rollingstone.com/wp-content/uploads/2023/02/300-canciones_web_6.jpg",
+        "color": "#4cc999",
+        "link": "https://es.rollingstone.com/arg-300-canciones-rock-argentino-siglo-xxi-101-300/",
+        "linktext": "Link a RS"
+        
+    },
+    {
+        "id": 2,
+        "date": "2012-04-23T18:25:43.511Z",
+        "title": "Tutorial GPT-4",
+        "subtitle": "20/03/2023",
+        "body": "¿Te gustaría hablar con la IA más avanzada? En mi último artículo en Medium, expliqué cómo programar una aplicación de chat utilizando la tecnología de GPT-4. Recibí varias consultas sobre cómo tener una ventana de chat con GPT-4, y pensé que qué mejor manera de hacerlo que aprovechando su propia tecnología.\n",
+        "img": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*hycRzJzSO2VtLTNf49tlEA.png",
+        "color": "#4cc9f0",
+        "link": "https://medium.com/@lautarobarcelo/hablando-con-gpt-4-3cd897acbfcc",
+        "linktext": "Link a Medium"
+        
+    },
+    {
+        "id": 3,
+        "date": "2012-04-23T18:25:43.511Z",
+        "title": "Vida Sentimental",
+        "subtitle": "04/04/2023",
+        "body": "Hoy salió 'Vida Sentimental', disco que produje junto a Juan Irio y trabajamos gran parte en Estudio Nakao. La canción que comparto es una de a las que más cariño le tengo. La puse en loop mientras escribo esto. Todos los días recibíamos pistas de amigos y nuevos conocidos que colaboraron para que el disco sea lo que es. Otra maravilla de Juan. Mañana se estrena 'Blondi', la ópera prima de Dolores Fonzi en el cine Gaumont, en el marco del BAFICI. Hice varios tracks musicales como parte Sounds Like a Hit Factory, entre ellos, una canción original que escribí en coreano. Cuando digo que la canción es en coreano, ya empiezo a escuchar la sirena policial en mi mente. No se molesten y disfruten. Por otro lado, Trenque Lauquen de El Pampero Cine hoy se estrena en el Lincoln Center de NY y pronto en cines comerciales de EEUU, así que otras canciones que hicimos con SLAHF están sonando en cualquier lado.",
+        "img": "https://f4.bcbits.com/img/a1200161312_10.jpg",
+        "color": "#4cc999",
+        "link": "https://open.spotify.com/track/6lbE744hHavvSZtX2xTVUl?si=28d715ca365c4878",
+        "linktext": "Link a Spotify"
+        
+    },
+    {
+        "id": 4,
+        "date": "2012-04-23T18:25:43.511Z",
+        "title": "En TV Universidad",
+        "subtitle": "04/04/2023",
+        "body": "Empecé mi columna sobre IA en la AM de Radio Provincia, en el programa 'Mañana es Mejor' los días martes a las 10AM y tres semanas después me llamaron de la tele para una entrevista.",
+        "img": "https://i.ytimg.com/vi/nCnY0EpduJM/maxresdefault.jpg",
+        "color": "#4cc9f0",
+        "link": "https://www.youtube.com/watch?v=nCnY0EpduJM",
+        "linktext": "Entrevista"
+        
+    },
+    {
+        "id": 5,
+        "date": "2012-04-23T18:25:43.511Z",
+        "title": "Nota en Rolling Stone",
+        "subtitle": "09/06/2023",
+        "body": "Me entrevistó Joaquin Vismara para Rolling Stone Argentina sobre los dos mundos que habito y que involuntariamente se retroalimentan. Hablé como casi/casi/casi Analista de Inteligencia Artificial en la Universidad de Palermo, y con mi trayectoria como músico y productor a cuestas, encontrando hoy su hábitat en Estudio Nakao. Hablamos de guitarras, de creatividad y de cómo la IA (desde siempre) aporta cada vez más herramientas, cómo también narrativas bizarras para el porvenir.",
+        "img": "https://es.rollingstone.com/wp-content/uploads/2023/06/01-APERTURA-WEB-aimusic_-8-RNDR-Martinez-.jpg",
+        "color": "#4cc999",
+        "link": "https://es.rollingstone.com/arg-inteligencia-artificial-musica/",
+        "linktext": "Nota"
+        
+    },
+    {
+        "id": 6,
+        "date": "2012-04-23T18:25:43.511Z",
+        "title": "Niños Knoll",
+        "subtitle": "09/06/2023",
+        "body": "Cambios de planes y de prioridades nos obligaron a que este disco se retrase, pero que nunca se abandone.Sabíamos que no había un público expectante y también sabíamos que tampoco teníamos las herramientas para atraerlos. La prioridad siempre fue sobrevivir y que los proyectos se auto-sustenten. Al verse licuado por las demandas cotidianas, Niños Knoll empezó a convertirse en una promesa incumplida que con el tiempo nos empezó a pesar. Mientras hacíamos este disco, sentí como pocas veces la obligación de terminarlo y mostrarlo. Pero no llegamos en tiempo y forma. En 2019 avanzamos algo con Pablo, pero el disco parecía lejano e indomable. Terminamos aplazándolo nuevamente. Durante la pandemia, me metí en el estudio algunos días a ver si podía deformarlo, encontrarle la vuelta. Faltaban mis coros y guitarras que habíamos ensayado, pero en lugar de eso metí máquinas, bajos, ruidos. Terminé asqueado, odiado y lo volví a abandonar. A fines de 2022 nos juntamos con @pablomatias_vidal para terminarlo y nos sorprendimos al entender que el disco estaba mucho más cerca de lo que creíamos. Lo pudimos terminar en @nakao.estudio. Un disco solitario, nocturno, cerrado, narraciones que son maquinaciones, con el sonido de una íntima banda acústica glitcheada por el paso del tiempo y el uso de máquinas y plugins indebidos.",
+        "img": "https://i.scdn.co/image/ab67616d0000b273668ccb6135af8890b1a75675",
+        "color": "#4cc9f0",
+        "link": "https://open.spotify.com/intl-es/album/1MhKxVDekVJDJyMMUe86ae",
+        "linktext": "Spotify"
+        
+    },
+    {
+        "id": 7,
+        "date": "2012-04-23T18:25:43.511Z",
+        "title": "La copia del padre",
+        "subtitle": "09/06/2023",
+        "body": "Publiqué una nota en elDiarioAR. Hablo un poco sobre IA, un poco sobre la vida eterna, un poco sobre recuperar lo que se perdió para siempre.",
+        "img": "https://static.eldiario.es/clip/38de23dd-cac6-435c-8d0b-96aacb91351c_16-9-aspect-ratio_default_0.webp",
+        "color": "#4cc999",
+        "link": "https://www.eldiarioar.com/tecnologia/copia-padre_130_10360216.html",
+        "linktext": "Nota"
+        
+    },
+    {
+        "id": 8,
+        "date": "2012-04-23T18:25:43.511Z",
+        "title": "Cuerpo eléctrico",
+        "subtitle": "16/07/2023",
+        "body": "Mi nuevo texto para elDiarioAR. El año que viene, quizás, tendremos a disposición juegos con personajes que solamente respeten arcos y no tengan cargada ninguna línea de diálogo. ¿Podremos conversar y compartir junto a nuestros camaradas digitales grandes epopeyas de 80, 100, 200 horas sin sentir ningún tipo de apego? ¿Podremos estar expuestos a su compañía y luego dejar de pagar la suscripción que los mantenga vivos en la nube? ",
+        "img": "https://static.eldiario.es/clip/664ab957-3fd3-47ac-884a-7ade464561e3_16-9-discover-aspect-ratio_default_0.webp",
+        "color": "#4cc9f0",
+        "link": "https://www.eldiarioar.com/opinion/amo-cuerpo-electrico_1_10381541.html",
+        "linktext": "Nota"
+        
+    },
+    {
+        "id": 9,
+        "title": "La obra humana", 
+        "subtitle": "30/07/2023",
+        "body": "Mi nuevo texto para elDiarioAR. El año que viene, quizás, tendremos a disposición juegos con personajes que solamente respeten arcos y no tengan cargada ninguna línea de diálogo. ¿Podremos conversar y compartir junto a nuestros camaradas digitales grandes epopeyas de 80, 100, 200 horas sin sentir ningún tipo de apego? ¿Podremos estar expuestos a su compañía y luego dejar de pagar la suscripción que los mantenga vivos en la nube? ",
+        "img": "https://static.eldiario.es/clip/fc1f3df9-d1bb-4e17-b1bb-653f1667aea0_16-9-discover-aspect-ratio_default_0.webp",
+        "color": "#4cc999",
+        "link": "https://www.eldiarioar.com/tecnologia/copia-padre_130_10360216.html",
+        "linktext": "Nota"
+        
+    },
+    {
+        "id": 10,
+        "date": "2012-04-23T18:25:43.511Z",
+        "title": "Premio a Mejor Música", 
+        "subtitle": "10/09/2023",
+        "body": "Además de obtener el máximo galardón (Mejor Película) y Mejor directora para nuestra amada Laura Citarella, Trenque Lauquen recibió el premio a Mejor Música en la Competencia Internacional del @ficpba. Compartimos el premio con Gabriel Chwojnik, responsable de las piezas instrumentales del film. Con Ramiro compusimos, produjimos y grabamos una decena de canciones que suenan a lo largo del film, durante una maratónica semana en mi querido Estudio Nakao. Nuevas canciones seguirán sonando en futuras películas.",
+        "img": "https://www.otroscines.com/images/fotos/ficpba-2023-ganadores-1000.jpg",
+        "color": "#4cc9f0",
+        "link": "https://www.escribiendocine.com/noticias/2023/09/10/16311-todos-los-ganadores-del-ficpba-festival-internacional-de-cine-de-la-provincia-de-buenos-aires",
+        "linktext": "Nota"
+        
+    },
+    {
+        "id": 11,
+        "title": "Los tonos mayores", 
+        "subtitle": "10/10/2023",
+        "body": "Mañana se estrena en el Festival Internacional de Cine de Mar del Plata, una nueva película para la que tuve el gusto de componer y producir canciones. Su directora es talentosísima, así que viajé al estreno muy entusiasmado 🦆 ",
+        "img": "https://img.peliplat.com/api/resize/v1?imagePath=peliplat/article/20231109/e3d0fab7dee568d8eebbdc32032ab995.png&source=s3-peliplat&mode=LFIT&width=600&height=600&limit=false&c=1.jpg",
+        "color": "#4cc999",
+        "link": "https://www.mardelplatafilmfest.com/38/es/pelicula/los-tonos-mayores",
+        "linktext": "Link a festival"
+        
+    },
+    {
+        "id": 12,
+        "date": "2012-04-23T18:25:43.511Z",
+        "title": "Entrevista en UMDG", 
+        "subtitle": "09/12/2023",
+        "body": "Estuve conversando con Ariel Valeri en Un Montón De Gente por Radio Universidad y conté sobre mis proyectos, mis estudios y mis resoluciones para 2024. Rompimos un récord de duración, no sé si es algo bueno o malo.",
+        "img": "https://i.ytimg.com/vi/wjTMXw-m68c/maxresdefault.jpg",
+        "color": "#4cc9f0",
+        "link": "https://www.youtube.com/watch?v=wjTMXw-m68c",
+        "linktext": "Nota"
+        
+    },
+    {
+        "id": 13,
+        "date": "2012-04-23T18:25:43.511Z",
+        "title": "Biznaga de Plata en Málaga y baile en Berlinale", 
+        "subtitle": "08/03/2024",
+        "body": "Me contaron que Los Tonos Mayores fue un éxito en la Berlinale y que la gente aplaudió y bailó con Estimated Friend, una de las canciones que escribí para la película y que forma parte de los créditos. Pero lo más importante, es que en Málaga ganaron la Biznaga de Plata a Mejor Película Iberoamericana. Aviso cuando se estrene por estas coordenadas.",
+        "img": "https://gpsaudiovisual.com/wp-content/uploads/2024/03/Photocall-Los-Tonos-Mayores_Ana-Belen-Fernandez-1-1024x683.jpg",
+        "color": "#4cc999",
+        "link": "https://x.com/LautaroBarcelo/status/1765835103471538328?s=20",
+        "linktext": "Baile"
+        
+    },
+    {
+        "id": 14,
+        "date": "2012-04-23T18:25:43.511Z",
+        "title": "Una infancia y Akira Toriyamaaaa", 
+        "subtitle": "11/12/2023",
+        "body": "Me pidieron un texto a propósito de la muerte de Akira Toriyama. Fue, sin lugar a dudas, el desconocido más influyente de mi infancia y adolescencia. Le dediqué unas palabras a su obra, Dragon Ball y también a Lautaro del pasado para Diario Contexto.",
+        "img": "https://www.diariocontexto.com.ar/wp-content/uploads/2024/03/akira-1.jpg",
+        "color": "#4cc9f0",
+        "link": "https://www.diariocontexto.com.ar/abro-hilo-soy-goku/",
+        "linktext": "Nota"
+        
+    }
+]
+</file>
+
+<file path="src/languages/news/es.json">
+[
+    {
+        "id": 0,
+        "date": "2024-01-09T09:11:43.511Z",
+        "title": "Inicio de 2023",
+        "subtitle": "15/02/2023",
+        "body": "Compusimos y produjimos los hits de Trenque Lauquen, la ahora multipremiada en el mundo película de Laura Citarella. Hicimos lo mismo con la próxima película de La Unión de los Ríos, próxima a estrenar por Amazon Prime. Casi todas fueron escritas en inglés, excepto una que hice en coreano. Grabamos y producimos a 15 bandas semifinalistas de Maravillosa Música, desplegando todo el potencial del estudio para proyectos audiovisuales, siendo quizás el único lugar en los alrededores en el que se puede desarrollar una locura de tal magnitud. Grabamos música incesantemente en Estudio Estudio Nakao. Pasaron docenas de artistas: produje canciones de Juan Irio, Coneus, Niños Knoll.",
+        "img": "https://nakao.studio/wp-content/uploads/2022/09/IMG_0032-1024x768.jpeg",
+        "color": "#4cc9f0",
+        "link": "www.google.com",
+        "linktext": "Link a Instagram"
+        
+    },
+    {
+        "id": 1,
+        "date": "2012-04-23T18:25:43.511Z",
+        "title": "Lo mejor del siglo",
+        "subtitle": "03/03/2023",
+        "body": "Este mes, eligieron una canción que escribí para El Estrellero como una de las mejores 300 canciones del siglo XXI en la Rolling Stone, en el puesto 237, OK Amigo",
+        "img": "https://es.rollingstone.com/wp-content/uploads/2023/02/300-canciones_web_6.jpg",
+        "color": "#4cc999",
+        "link": "https://es.rollingstone.com/arg-300-canciones-rock-argentino-siglo-xxi-101-300/",
+        "linktext": "Link a RS"
+        
+    },
+    {
+        "id": 2,
+        "date": "2012-04-23T18:25:43.511Z",
+        "title": "Tutorial GPT-4",
+        "subtitle": "20/03/2023",
+        "body": "¿Te gustaría hablar con la IA más avanzada? En mi último artículo en Medium, expliqué cómo programar una aplicación de chat utilizando la tecnología de GPT-4. Recibí varias consultas sobre cómo tener una ventana de chat con GPT-4, y pensé que qué mejor manera de hacerlo que aprovechando su propia tecnología.\n",
+        "img": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*hycRzJzSO2VtLTNf49tlEA.png",
+        "color": "#4cc9f0",
+        "link": "https://medium.com/@lautarobarcelo/hablando-con-gpt-4-3cd897acbfcc",
+        "linktext": "Link a Medium"
+        
+    },
+    {
+        "id": 3,
+        "date": "2012-04-23T18:25:43.511Z",
+        "title": "Vida Sentimental",
+        "subtitle": "04/04/2023",
+        "body": "Hoy salió 'Vida Sentimental', disco que produje junto a Juan Irio y trabajamos gran parte en Estudio Nakao. La canción que comparto es una de a las que más cariño le tengo. La puse en loop mientras escribo esto. Todos los días recibíamos pistas de amigos y nuevos conocidos que colaboraron para que el disco sea lo que es. Otra maravilla de Juan. Mañana se estrena 'Blondi', la ópera prima de Dolores Fonzi en el cine Gaumont, en el marco del BAFICI. Hice varios tracks musicales como parte Sounds Like a Hit Factory, entre ellos, una canción original que escribí en coreano. Cuando digo que la canción es en coreano, ya empiezo a escuchar la sirena policial en mi mente. No se molesten y disfruten. Por otro lado, Trenque Lauquen de El Pampero Cine hoy se estrena en el Lincoln Center de NY y pronto en cines comerciales de EEUU, así que otras canciones que hicimos con SLAHF están sonando en cualquier lado.",
+        "img": "https://f4.bcbits.com/img/a1200161312_10.jpg",
+        "color": "#4cc999",
+        "link": "https://open.spotify.com/track/6lbE744hHavvSZtX2xTVUl?si=28d715ca365c4878",
+        "linktext": "Link a Spotify"
+        
+    },
+    {
+        "id": 4,
+        "date": "2012-04-23T18:25:43.511Z",
+        "title": "En TV Universidad",
+        "subtitle": "04/04/2023",
+        "body": "Empecé mi columna sobre IA en la AM de Radio Provincia, en el programa 'Mañana es Mejor' los días martes a las 10AM y tres semanas después me llamaron de la tele para una entrevista.",
+        "img": "https://i.ytimg.com/vi/nCnY0EpduJM/maxresdefault.jpg",
+        "color": "#4cc9f0",
+        "link": "https://www.youtube.com/watch?v=nCnY0EpduJM",
+        "linktext": "Entrevista"
+        
+    },
+    {
+        "id": 5,
+        "date": "2012-04-23T18:25:43.511Z",
+        "title": "Nota en Rolling Stone",
+        "subtitle": "09/06/2023",
+        "body": "Me entrevistó Joaquin Vismara para Rolling Stone Argentina sobre los dos mundos que habito y que involuntariamente se retroalimentan. Hablé como casi/casi/casi Analista de Inteligencia Artificial en la Universidad de Palermo, y con mi trayectoria como músico y productor a cuestas, encontrando hoy su hábitat en Estudio Nakao. Hablamos de guitarras, de creatividad y de cómo la IA (desde siempre) aporta cada vez más herramientas, cómo también narrativas bizarras para el porvenir.",
+        "img": "https://es.rollingstone.com/wp-content/uploads/2023/06/01-APERTURA-WEB-aimusic_-8-RNDR-Martinez-.jpg",
+        "color": "#4cc999",
+        "link": "https://es.rollingstone.com/arg-inteligencia-artificial-musica/",
+        "linktext": "Nota"
+        
+    },
+    {
+        "id": 6,
+        "date": "2012-04-23T18:25:43.511Z",
+        "title": "Niños Knoll",
+        "subtitle": "09/06/2023",
+        "body": "Cambios de planes y de prioridades nos obligaron a que este disco se retrase, pero que nunca se abandone.Sabíamos que no había un público expectante y también sabíamos que tampoco teníamos las herramientas para atraerlos. La prioridad siempre fue sobrevivir y que los proyectos se auto-sustenten. Al verse licuado por las demandas cotidianas, Niños Knoll empezó a convertirse en una promesa incumplida que con el tiempo nos empezó a pesar. Mientras hacíamos este disco, sentí como pocas veces la obligación de terminarlo y mostrarlo. Pero no llegamos en tiempo y forma. En 2019 avanzamos algo con Pablo, pero el disco parecía lejano e indomable. Terminamos aplazándolo nuevamente. Durante la pandemia, me metí en el estudio algunos días a ver si podía deformarlo, encontrarle la vuelta. Faltaban mis coros y guitarras que habíamos ensayado, pero en lugar de eso metí máquinas, bajos, ruidos. Terminé asqueado, odiado y lo volví a abandonar. A fines de 2022 nos juntamos con @pablomatias_vidal para terminarlo y nos sorprendimos al entender que el disco estaba mucho más cerca de lo que creíamos. Lo pudimos terminar en @nakao.estudio. Un disco solitario, nocturno, cerrado, narraciones que son maquinaciones, con el sonido de una íntima banda acústica glitcheada por el paso del tiempo y el uso de máquinas y plugins indebidos.",
+        "img": "https://i.scdn.co/image/ab67616d0000b273668ccb6135af8890b1a75675",
+        "color": "#4cc9f0",
+        "link": "https://open.spotify.com/intl-es/album/1MhKxVDekVJDJyMMUe86ae",
+        "linktext": "Spotify"
+        
+    },
+    {
+        "id": 7,
+        "date": "2012-04-23T18:25:43.511Z",
+        "title": "La copia del padre",
+        "subtitle": "09/06/2023",
+        "body": "Publiqué una nota en elDiarioAR. Hablo un poco sobre IA, un poco sobre la vida eterna, un poco sobre recuperar lo que se perdió para siempre.",
+        "img": "https://static.eldiario.es/clip/38de23dd-cac6-435c-8d0b-96aacb91351c_16-9-aspect-ratio_default_0.webp",
+        "color": "#4cc999",
+        "link": "https://www.eldiarioar.com/tecnologia/copia-padre_130_10360216.html",
+        "linktext": "Nota"
+        
+    },
+    {
+        "id": 8,
+        "date": "2012-04-23T18:25:43.511Z",
+        "title": "Cuerpo eléctrico",
+        "subtitle": "16/07/2023",
+        "body": "Mi nuevo texto para elDiarioAR. El año que viene, quizás, tendremos a disposición juegos con personajes que solamente respeten arcos y no tengan cargada ninguna línea de diálogo. ¿Podremos conversar y compartir junto a nuestros camaradas digitales grandes epopeyas de 80, 100, 200 horas sin sentir ningún tipo de apego? ¿Podremos estar expuestos a su compañía y luego dejar de pagar la suscripción que los mantenga vivos en la nube? ",
+        "img": "https://static.eldiario.es/clip/664ab957-3fd3-47ac-884a-7ade464561e3_16-9-discover-aspect-ratio_default_0.webp",
+        "color": "#4cc9f0",
+        "link": "https://www.eldiarioar.com/opinion/amo-cuerpo-electrico_1_10381541.html",
+        "linktext": "Nota"
+        
+    },
+    {
+        "id": 9,
+        "title": "La obra humana", 
+        "subtitle": "30/07/2023",
+        "body": "Mi nuevo texto para elDiarioAR. El año que viene, quizás, tendremos a disposición juegos con personajes que solamente respeten arcos y no tengan cargada ninguna línea de diálogo. ¿Podremos conversar y compartir junto a nuestros camaradas digitales grandes epopeyas de 80, 100, 200 horas sin sentir ningún tipo de apego? ¿Podremos estar expuestos a su compañía y luego dejar de pagar la suscripción que los mantenga vivos en la nube? ",
+        "img": "https://static.eldiario.es/clip/fc1f3df9-d1bb-4e17-b1bb-653f1667aea0_16-9-discover-aspect-ratio_default_0.webp",
+        "color": "#4cc999",
+        "link": "https://www.eldiarioar.com/tecnologia/copia-padre_130_10360216.html",
+        "linktext": "Nota"
+        
+    },
+    {
+        "id": 10,
+        "date": "2012-04-23T18:25:43.511Z",
+        "title": "Premio a Mejor Música", 
+        "subtitle": "10/09/2023",
+        "body": "Además de obtener el máximo galardón (Mejor Película) y Mejor directora para nuestra amada Laura Citarella, Trenque Lauquen recibió el premio a Mejor Música en la Competencia Internacional del @ficpba. Compartimos el premio con Gabriel Chwojnik, responsable de las piezas instrumentales del film. Con Ramiro compusimos, produjimos y grabamos una decena de canciones que suenan a lo largo del film, durante una maratónica semana en mi querido Estudio Nakao. Nuevas canciones seguirán sonando en futuras películas.",
+        "img": "https://www.otroscines.com/images/fotos/ficpba-2023-ganadores-1000.jpg",
+        "color": "#4cc9f0",
+        "link": "https://www.escribiendocine.com/noticias/2023/09/10/16311-todos-los-ganadores-del-ficpba-festival-internacional-de-cine-de-la-provincia-de-buenos-aires",
+        "linktext": "Nota"
+        
+    },
+    {
+        "id": 11,
+        "title": "Los tonos mayores", 
+        "subtitle": "10/10/2023",
+        "body": "Mañana se estrena en el Festival Internacional de Cine de Mar del Plata, una nueva película para la que tuve el gusto de componer y producir canciones. Su directora es talentosísima, así que viajé al estreno muy entusiasmado 🦆 ",
+        "img": "https://img.peliplat.com/api/resize/v1?imagePath=peliplat/article/20231109/e3d0fab7dee568d8eebbdc32032ab995.png&source=s3-peliplat&mode=LFIT&width=600&height=600&limit=false&c=1.jpg",
+        "color": "#4cc999",
+        "link": "https://www.mardelplatafilmfest.com/38/es/pelicula/los-tonos-mayores",
+        "linktext": "Link a festival"
+        
+    },
+    {
+        "id": 12,
+        "date": "2012-04-23T18:25:43.511Z",
+        "title": "Entrevista en UMDG", 
+        "subtitle": "09/12/2023",
+        "body": "Estuve conversando con Ariel Valeri en Un Montón De Gente por Radio Universidad y conté sobre mis proyectos, mis estudios y mis resoluciones para 2024. Rompimos un récord de duración, no sé si es algo bueno o malo.",
+        "img": "https://i.ytimg.com/vi/wjTMXw-m68c/maxresdefault.jpg",
+        "color": "#4cc9f0",
+        "link": "https://www.youtube.com/watch?v=wjTMXw-m68c",
+        "linktext": "Nota"
+        
+    },
+    {
+        "id": 13,
+        "date": "2012-04-23T18:25:43.511Z",
+        "title": "Biznaga de Plata en Málaga y baile en Berlinale", 
+        "subtitle": "08/03/2024",
+        "body": "Me contaron que Los Tonos Mayores fue un éxito en la Berlinale y que la gente aplaudió y bailó con Estimated Friend, una de las canciones que escribí para la película y que forma parte de los créditos. Pero lo más importante, es que en Málaga ganaron la Biznaga de Plata a Mejor Película Iberoamericana. Aviso cuando se estrene por estas coordenadas.",
+        "img": "https://gpsaudiovisual.com/wp-content/uploads/2024/03/Photocall-Los-Tonos-Mayores_Ana-Belen-Fernandez-1-1024x683.jpg",
+        "color": "#4cc999",
+        "link": "https://x.com/LautaroBarcelo/status/1765835103471538328?s=20",
+        "linktext": "Baile"
+        
+    },
+    {
+        "id": 14,
+        "date": "2012-04-23T18:25:43.511Z",
+        "title": "Una infancia y Akira Toriyama", 
+        "subtitle": "11/12/2023",
+        "body": "Me pidieron un texto a propósito de la muerte de Akira Toriyama. Fue, sin lugar a dudas, el desconocido más influyente de mi infancia y adolescencia. Le dediqué unas palabras a su obra, Dragon Ball y también a Lautaro del pasado para Diario Contexto.",
+        "img": "https://www.diariocontexto.com.ar/wp-content/uploads/2024/03/akira-1.jpg",
+        "color": "#4cc9f0",
+        "link": "https://www.diariocontexto.com.ar/abro-hilo-soy-goku/",
+        "linktext": "Nota"
+        
+    }
+]
+</file>
+
+<file path="src/languages/news/jp.json">
+[
+    {
+        "id": 0,
+        "date": "2024-01-09T09:11:43.511Z",
+        "title": "Inicio de 2023",
+        "subtitle": "15/02/2023",
+        "body": "Compusimos y produjimos los hits de Trenque Lauquen, la ahora multipremiada en el mundo película de Laura Citarella. Hicimos lo mismo con la próxima película de La Unión de los Ríos, próxima a estrenar por Amazon Prime. Casi todas fueron escritas en inglés, excepto una que hice en coreano. Grabamos y producimos a 15 bandas semifinalistas de Maravillosa Música, desplegando todo el potencial del estudio para proyectos audiovisuales, siendo quizás el único lugar en los alrededores en el que se puede desarrollar una locura de tal magnitud. Grabamos música incesantemente en Estudio Estudio Nakao. Pasaron docenas de artistas: produje canciones de Juan Irio, Coneus, Niños Knoll.",
+        "img": "https://nakao.studio/wp-content/uploads/2022/09/IMG_0032-1024x768.jpeg",
+        "color": "#4cc9f0",
+        "link": "www.google.com",
+        "linktext": "Link a Instagram"
+        
+    },
+    {
+        "id": 1,
+        "date": "2012-04-23T18:25:43.511Z",
+        "title": "Lo mejor del siglo",
+        "subtitle": "03/03/2023",
+        "body": "Este mes, eligieron una canción que escribí para El Estrellero como una de las mejores 300 canciones del siglo XXI en la Rolling Stone, en el puesto 237, OK Amigo",
+        "img": "https://es.rollingstone.com/wp-content/uploads/2023/02/300-canciones_web_6.jpg",
+        "color": "#4cc999",
+        "link": "https://es.rollingstone.com/arg-300-canciones-rock-argentino-siglo-xxi-101-300/",
+        "linktext": "Link a RS"
+        
+    },
+    {
+        "id": 2,
+        "date": "2012-04-23T18:25:43.511Z",
+        "title": "Tutorial GPT-4",
+        "subtitle": "20/03/2023",
+        "body": "¿Te gustaría hablar con la IA más avanzada? En mi último artículo en Medium, expliqué cómo programar una aplicación de chat utilizando la tecnología de GPT-4. Recibí varias consultas sobre cómo tener una ventana de chat con GPT-4, y pensé que qué mejor manera de hacerlo que aprovechando su propia tecnología.\n",
+        "img": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*hycRzJzSO2VtLTNf49tlEA.png",
+        "color": "#4cc9f0",
+        "link": "https://medium.com/@lautarobarcelo/hablando-con-gpt-4-3cd897acbfcc",
+        "linktext": "Link a Medium"
+        
+    },
+    {
+        "id": 3,
+        "date": "2012-04-23T18:25:43.511Z",
+        "title": "Vida Sentimental",
+        "subtitle": "04/04/2023",
+        "body": "Hoy salió 'Vida Sentimental', disco que produje junto a Juan Irio y trabajamos gran parte en Estudio Nakao. La canción que comparto es una de a las que más cariño le tengo. La puse en loop mientras escribo esto. Todos los días recibíamos pistas de amigos y nuevos conocidos que colaboraron para que el disco sea lo que es. Otra maravilla de Juan. Mañana se estrena 'Blondi', la ópera prima de Dolores Fonzi en el cine Gaumont, en el marco del BAFICI. Hice varios tracks musicales como parte Sounds Like a Hit Factory, entre ellos, una canción original que escribí en coreano. Cuando digo que la canción es en coreano, ya empiezo a escuchar la sirena policial en mi mente. No se molesten y disfruten. Por otro lado, Trenque Lauquen de El Pampero Cine hoy se estrena en el Lincoln Center de NY y pronto en cines comerciales de EEUU, así que otras canciones que hicimos con SLAHF están sonando en cualquier lado.",
+        "img": "https://f4.bcbits.com/img/a1200161312_10.jpg",
+        "color": "#4cc999",
+        "link": "https://open.spotify.com/track/6lbE744hHavvSZtX2xTVUl?si=28d715ca365c4878",
+        "linktext": "Link a Spotify"
+        
+    },
+    {
+        "id": 4,
+        "date": "2012-04-23T18:25:43.511Z",
+        "title": "En TV Universidad",
+        "subtitle": "04/04/2023",
+        "body": "Empecé mi columna sobre IA en la AM de Radio Provincia, en el programa 'Mañana es Mejor' los días martes a las 10AM y tres semanas después me llamaron de la tele para una entrevista.",
+        "img": "https://i.ytimg.com/vi/nCnY0EpduJM/maxresdefault.jpg",
+        "color": "#4cc9f0",
+        "link": "https://www.youtube.com/watch?v=nCnY0EpduJM",
+        "linktext": "Entrevista"
+        
+    },
+    {
+        "id": 5,
+        "date": "2012-04-23T18:25:43.511Z",
+        "title": "Nota en Rolling Stone",
+        "subtitle": "09/06/2023",
+        "body": "Me entrevistó Joaquin Vismara para Rolling Stone Argentina sobre los dos mundos que habito y que involuntariamente se retroalimentan. Hablé como casi/casi/casi Analista de Inteligencia Artificial en la Universidad de Palermo, y con mi trayectoria como músico y productor a cuestas, encontrando hoy su hábitat en Estudio Nakao. Hablamos de guitarras, de creatividad y de cómo la IA (desde siempre) aporta cada vez más herramientas, cómo también narrativas bizarras para el porvenir.",
+        "img": "https://es.rollingstone.com/wp-content/uploads/2023/06/01-APERTURA-WEB-aimusic_-8-RNDR-Martinez-.jpg",
+        "color": "#4cc999",
+        "link": "https://es.rollingstone.com/arg-inteligencia-artificial-musica/",
+        "linktext": "Nota"
+        
+    },
+    {
+        "id": 6,
+        "date": "2012-04-23T18:25:43.511Z",
+        "title": "Niños Knoll",
+        "subtitle": "09/06/2023",
+        "body": "Cambios de planes y de prioridades nos obligaron a que este disco se retrase, pero que nunca se abandone.Sabíamos que no había un público expectante y también sabíamos que tampoco teníamos las herramientas para atraerlos. La prioridad siempre fue sobrevivir y que los proyectos se auto-sustenten. Al verse licuado por las demandas cotidianas, Niños Knoll empezó a convertirse en una promesa incumplida que con el tiempo nos empezó a pesar. Mientras hacíamos este disco, sentí como pocas veces la obligación de terminarlo y mostrarlo. Pero no llegamos en tiempo y forma. En 2019 avanzamos algo con Pablo, pero el disco parecía lejano e indomable. Terminamos aplazándolo nuevamente. Durante la pandemia, me metí en el estudio algunos días a ver si podía deformarlo, encontrarle la vuelta. Faltaban mis coros y guitarras que habíamos ensayado, pero en lugar de eso metí máquinas, bajos, ruidos. Terminé asqueado, odiado y lo volví a abandonar. A fines de 2022 nos juntamos con @pablomatias_vidal para terminarlo y nos sorprendimos al entender que el disco estaba mucho más cerca de lo que creíamos. Lo pudimos terminar en @nakao.estudio. Un disco solitario, nocturno, cerrado, narraciones que son maquinaciones, con el sonido de una íntima banda acústica glitcheada por el paso del tiempo y el uso de máquinas y plugins indebidos.",
+        "img": "https://i.scdn.co/image/ab67616d0000b273668ccb6135af8890b1a75675",
+        "color": "#4cc9f0",
+        "link": "https://open.spotify.com/intl-es/album/1MhKxVDekVJDJyMMUe86ae",
+        "linktext": "Spotify"
+        
+    },
+    {
+        "id": 7,
+        "date": "2012-04-23T18:25:43.511Z",
+        "title": "La copia del padre",
+        "subtitle": "09/06/2023",
+        "body": "Publiqué una nota en elDiarioAR. Hablo un poco sobre IA, un poco sobre la vida eterna, un poco sobre recuperar lo que se perdió para siempre.",
+        "img": "https://static.eldiario.es/clip/38de23dd-cac6-435c-8d0b-96aacb91351c_16-9-aspect-ratio_default_0.webp",
+        "color": "#4cc999",
+        "link": "https://www.eldiarioar.com/tecnologia/copia-padre_130_10360216.html",
+        "linktext": "Nota"
+        
+    },
+    {
+        "id": 8,
+        "date": "2012-04-23T18:25:43.511Z",
+        "title": "Cuerpo eléctrico",
+        "subtitle": "16/07/2023",
+        "body": "Mi nuevo texto para elDiarioAR. El año que viene, quizás, tendremos a disposición juegos con personajes que solamente respeten arcos y no tengan cargada ninguna línea de diálogo. ¿Podremos conversar y compartir junto a nuestros camaradas digitales grandes epopeyas de 80, 100, 200 horas sin sentir ningún tipo de apego? ¿Podremos estar expuestos a su compañía y luego dejar de pagar la suscripción que los mantenga vivos en la nube? ",
+        "img": "https://static.eldiario.es/clip/664ab957-3fd3-47ac-884a-7ade464561e3_16-9-discover-aspect-ratio_default_0.webp",
+        "color": "#4cc9f0",
+        "link": "https://www.eldiarioar.com/opinion/amo-cuerpo-electrico_1_10381541.html",
+        "linktext": "Nota"
+        
+    },
+    {
+        "id": 9,
+        "title": "La obra humana", 
+        "subtitle": "30/07/2023",
+        "body": "Mi nuevo texto para elDiarioAR. El año que viene, quizás, tendremos a disposición juegos con personajes que solamente respeten arcos y no tengan cargada ninguna línea de diálogo. ¿Podremos conversar y compartir junto a nuestros camaradas digitales grandes epopeyas de 80, 100, 200 horas sin sentir ningún tipo de apego? ¿Podremos estar expuestos a su compañía y luego dejar de pagar la suscripción que los mantenga vivos en la nube? ",
+        "img": "https://static.eldiario.es/clip/fc1f3df9-d1bb-4e17-b1bb-653f1667aea0_16-9-discover-aspect-ratio_default_0.webp",
+        "color": "#4cc999",
+        "link": "https://www.eldiarioar.com/tecnologia/copia-padre_130_10360216.html",
+        "linktext": "Nota"
+        
+    },
+    {
+        "id": 10,
+        "date": "2012-04-23T18:25:43.511Z",
+        "title": "Premio a Mejor Música", 
+        "subtitle": "10/09/2023",
+        "body": "Además de obtener el máximo galardón (Mejor Película) y Mejor directora para nuestra amada Laura Citarella, Trenque Lauquen recibió el premio a Mejor Música en la Competencia Internacional del @ficpba. Compartimos el premio con Gabriel Chwojnik, responsable de las piezas instrumentales del film. Con Ramiro compusimos, produjimos y grabamos una decena de canciones que suenan a lo largo del film, durante una maratónica semana en mi querido Estudio Nakao. Nuevas canciones seguirán sonando en futuras películas.",
+        "img": "https://www.otroscines.com/images/fotos/ficpba-2023-ganadores-1000.jpg",
+        "color": "#4cc9f0",
+        "link": "https://www.escribiendocine.com/noticias/2023/09/10/16311-todos-los-ganadores-del-ficpba-festival-internacional-de-cine-de-la-provincia-de-buenos-aires",
+        "linktext": "Nota"
+        
+    },
+    {
+        "id": 11,
+        "title": "Los tonos mayores", 
+        "subtitle": "10/10/2023",
+        "body": "Mañana se estrena en el Festival Internacional de Cine de Mar del Plata, una nueva película para la que tuve el gusto de componer y producir canciones. Su directora es talentosísima, así que viajé al estreno muy entusiasmado 🦆 ",
+        "img": "https://img.peliplat.com/api/resize/v1?imagePath=peliplat/article/20231109/e3d0fab7dee568d8eebbdc32032ab995.png&source=s3-peliplat&mode=LFIT&width=600&height=600&limit=false&c=1.jpg",
+        "color": "#4cc999",
+        "link": "https://www.mardelplatafilmfest.com/38/es/pelicula/los-tonos-mayores",
+        "linktext": "Link a festival"
+        
+    },
+    {
+        "id": 12,
+        "date": "2012-04-23T18:25:43.511Z",
+        "title": "Entrevista en UMDG", 
+        "subtitle": "09/12/2023",
+        "body": "Estuve conversando con Ariel Valeri en Un Montón De Gente por Radio Universidad y conté sobre mis proyectos, mis estudios y mis resoluciones para 2024. Rompimos un récord de duración, no sé si es algo bueno o malo.",
+        "img": "https://i.ytimg.com/vi/wjTMXw-m68c/maxresdefault.jpg",
+        "color": "#4cc9f0",
+        "link": "https://www.youtube.com/watch?v=wjTMXw-m68c",
+        "linktext": "Nota"
+        
+    },
+    {
+        "id": 13,
+        "date": "2012-04-23T18:25:43.511Z",
+        "title": "Biznaga de Plata en Málaga y baile en Berlinale", 
+        "subtitle": "08/03/2024",
+        "body": "Me contaron que Los Tonos Mayores fue un éxito en la Berlinale y que la gente aplaudió y bailó con Estimated Friend, una de las canciones que escribí para la película y que forma parte de los créditos. Pero lo más importante, es que en Málaga ganaron la Biznaga de Plata a Mejor Película Iberoamericana. Aviso cuando se estrene por estas coordenadas.",
+        "img": "https://gpsaudiovisual.com/wp-content/uploads/2024/03/Photocall-Los-Tonos-Mayores_Ana-Belen-Fernandez-1-1024x683.jpg",
+        "color": "#4cc999",
+        "link": "https://x.com/LautaroBarcelo/status/1765835103471538328?s=20",
+        "linktext": "Baile"
+        
+    },
+    {
+        "id": 14,
+        "date": "2012-04-23T18:25:43.511Z",
+        "title": "Una infancia y Akira Toriyama", 
+        "subtitle": "11/12/2023",
+        "body": "Me pidieron un texto a propósito de la muerte de Akira Toriyama. Fue, sin lugar a dudas, el desconocido más influyente de mi infancia y adolescencia. Le dediqué unas palabras a su obra, Dragon Ball y también a Lautaro del pasado para Diario Contexto.",
+        "img": "https://www.diariocontexto.com.ar/wp-content/uploads/2024/03/akira-1.jpg",
+        "color": "#4cc9f0",
+        "link": "https://www.diariocontexto.com.ar/abro-hilo-soy-goku/",
+        "linktext": "Nota"
+        
+    }
+]
+</file>
+
+<file path="src/components/pages/discography/modal.js">
+import React from 'react';
+
+export default function Modal() {
+    return(
+        
+        <div className="modal">
+            <div className="modal-background"></div>
+            <div className="modal-card">
+                <header className="modal-card-head">
+                <p className="modal-card-title">Modal title</p>
+                <button className="delete" aria-label="close"></button>
+                </header>
+                <section className="modal-card-body">
+
+                </section>
+                <footer className="modal-card-foot">
+                <button className="button is-success">Save changes</button>
+                <button className="button">Cancel</button>
+                </footer>
+            </div>
+            <p>HOLAAA</p>
+        </div>
+    )
+}
+</file>
+
+<file path="src/components/pages/discography/stats.js">
+import React from 'react';
+
+export default function Stats({id}) {
+    return(
+    <nav className="level" id={id}>
+        <div className="level-item has-text-centered">
+            <div>
+            <p className="heading">Total</p>
+            <p className="title">3,456</p>
+            </div>
+        </div>
+        <div className="level-item has-text-centered">
+            <div>
+            <p className="heading">Following</p>
+            <p className="title">123</p>
+            </div>
+        </div>
+        <div className="level-item has-text-centered">
+            <div>
+            <p className="heading">Followers</p>
+            <p className="title">456K</p>
+            </div>
+        </div>
+        <div className="level-item has-text-centered">
+            <div>
+            <p className="heading">Likes</p>
+            <p className="title">789</p>
+            </div>
+        </div>
+    </nav>
+
+    )
+    }
+</file>
+
+<file path="src/components/pages/discography/styles.sass">
+@import '~bulma/sass/utilities/_all.sass'
+@import '~bulma/sass/base/_all.sass'
+@import '~bulma/sass/elements/image.sass'
+@import '~bulma/sass/grid/columns.sass'
+@import '~bulma/sass/layout/section.sass'
+</file>
+
+<file path="src/components/pages/press/falta.txt">
+Los Magos (2017) 
+ Claudio Kleiman, reseña destacada para Rolling Stone. 
+
+“"Los Magos” es la confirmación de la certeza que El Estrellero es una banda extraordinaria y que su música es de una riqueza y un volumen muy poco frecuentes" Ganador del Premio Mr. E a mejor disco argentino independiente.
+
+“Si el Indec midiera el arco melódico de las bandas de rock, El Estrellero estaría en la punta púrpura de sus tablas de estadísticas” Martín Graziano, Diario La Nación.
+
+“Tu nueva banda favorita” por Los Inrocks. “El deseo de fascinar” elegida entre las 20 mejores canciones de Agosto. 
+
+“Los magos encarna una figura simbólica mediante la cual se rinde homenaje a la alquimia producida entre todo eso que conmueve, desde un líder carismático hasta una obra de arte, y el sujeto encantado” Página /12
+
+“Los Magos, candidato a rankear alto entre lo mejor del año en cuanto a cosecha nacional” ArteZeta
+
+“El Estrellero da un salto con grandes canciones en el álbum “Los Magos”“ Agencia Télam. 
+
+“El disco recién editado por el sello Pontaco se presenta como un manifiesto estético, poético y, también, político.” José Maldonado, Diario El Día de La Plata. 
+
+“Un cúmulo de 11 canciones conversan desde una fuerte apuesta estética, metafórica y política, a través de una encantadora fusión de rock, pop, psicodelia y baile, sin perder de vista el culto a la canción.” AgendArte
+
+“Drama”, 2016
+
+“El arranque de Drama dice tanto de El Estrellero como esas primeras impresiones de una pintura inolvidable. Es pop, no hay duda, pero con la concepción renacentista de construir catedrales de tres minutos.” Reseña de Oscar Jalil para Rolling Stone, 4 estrellas. 
+
+“La experiencia de la escucha es ineludible. Con la nariz siempre al viento y guiados por dos auténticas estrellas del rock argentino la banda de La Plata saca uno de los mejores del año.-“ Reseña en Premio Mr. E. 
+
+“Con melodías pop épicas y embriagadoras, El Estrellero viene desmarcándose como la revelación del año, al punto de que sin siquiera tener editada su música en soporte físico –su disco Drama es todavía solamente digital– fueron invitados a tocar al Festival BUE” Nota en Suplemento Radar por Juan Andrade, Página/12. 
+
+“En la lírica melancólica de Barceló e Irio quizá esté otro de los fuertes de este disco, que cuenta con una poesía que le saca varias cabezas de ventaja al común de las bandas independientes de Argentina” Reseña en Revista NAN 
+
+“Escuchar Drama es, en pocas palabras, brindar por la música. Y tiene un sabor más rico porque es una banda de acá, que suena increíble.” Reseña en IndieHearts. 
+
+“El Estrellero es la nueva sensación del indie platense (y, por qué no, del indie nacional), y está bien que así sea.” Reseña en Billboard 
+
+“Era lógico y esperable, pero sorprendió igual: El Estrellero publicó Drama, uno de los grandes discos del año para el rock argentino.” Reseña en ArteZeta 
+
+“La Plata sigue entregando a los mejores grupos de la escena local y esta banda formada por la dupla autoral y verdaderos veteranos del indie como Lautaro Barceló y Juan Irio (Orquesta de Perros, Miro y su Fabulosa Orquesta de Juguete y The Siniestros) no es la excepción” Reseña en La Nación. 
+
+“El Estrellero llega desde la ciudad de las diagonales; cargados de un repertorio que reivindica el cancionero Pop-Rock, con una vuelta de tuerca que derrocha estilo y personalidad.” Reseña en Pastizales Burning 
+
+“El debut discográfico de El Estrellero muestra un trabajo arduo de ingeniería sonora, producto de cientos de ensayos, y deja en evidencia la creatividad contenida que desborda en cada uno de sus canciones” Reseña en Revista Tiburón 
+
+“En los últimos meses generaron cuanto menos el entusiasmo de todo aquel que haya tenido la oportunidad de escuchar sus canciones.” Reseña en Revista Ondular 
+
+“El Estrellero, banda joven promesa de jóvenes promesas, comienza a cumplir bajo sus propias reglas.” Reseña en Revista Va Viene. 
+
+“La poesía, pieza angular en la composición de ambos, es un flashback a Sui Generis y las letras que Charly García con Nito Mestre escribieron en los comienzos del rock argentino. Más aún, Drama (Fuego Amigo Discos, 2016) –su placa debut- comparte momentos sonoros con aquella banda refinada de Buenos Aires.” Reseña en POTQ, de Chile. 
+
+“El álbum debut de la banda proveniente de La Plata amalgama y conecta mundos a través de melodías diáfanas, poesía romántica y guitarras siderales.” Reseña en Proyecto Spoiler 
+
+“…viaje que es guiado por letras repletas de sentimientos que van dejando canciones donde la melancolía puede convivir con la alegría sin que haya un solo problema.” Reseña en Indie Hoy 
+
+Reconocido como uno de los discos del año por Premio Mr. E, ArteZeta, La Música es del Aire, Pastizales Burning, Revista Ondular, Revista La Tundra. 
+
+Premio a Mejor Canción en “Fan, el programa” por “Rima”.
+</file>
+
+<file path="src/components/pages/press.js">
+import React, { useState, useContext, useEffect } from 'react';
+import Nota from './press/nota';
+import './press/index.css';
+import { LanguageContext } from '../../containers/Language';
+
+export default function Press() {
+    const [pressData, setPressData] = useState([]);
+    const [loading, setLoading] = useState(true);
+    const [error, setError] = useState(null);
+    const { userLanguage } = useContext(LanguageContext);
+    
+    // Paleta de colores para las notas de prensa
+    const palette = [
+        "#eddcd2", "#fff1e6", "#fde2e4", "#fad2e1", 
+        "#c5dedd", "#dbe7e4", "#f0efeb", "#d6e2e9", 
+        "#bcd4e6", "#99c1de"
+    ];
+    
+    // Configuración GitHub - Usa los mismos valores que en News.js
+    const githubUser = 'lauutt';
+    const githubRepo = 'news';
+    const githubBranch = 'main';
+    
+    // Tiempo de expiración del caché (15 minutos)
+    const CACHE_EXPIRATION = 15 * 60 * 1000;
+    
+    useEffect(() => {
+        setLoading(true);
+        setError(null);
+        
+        // URL para acceder al archivo raw en GitHub
+        const url = `https://raw.githubusercontent.com/${githubUser}/${githubRepo}/${githubBranch}/content/press/${userLanguage}.json`;
+        
+        // Intentar obtener del caché primero
+        const cacheKey = `press_cache_${userLanguage}`;
+        const cachedData = localStorage.getItem(cacheKey);
+        
+        if (cachedData) {
+            try {
+                const { timestamp, data } = JSON.parse(cachedData);
+                const isExpired = Date.now() - timestamp > CACHE_EXPIRATION;
+                
+                if (!isExpired) {
+                    // Usar datos en caché si no han expirado
+                    setPressData(data);
+                    setLoading(false);
+                    return;
+                }
+            } catch (e) {
+                console.error('Error parsing press cache:', e);
+                localStorage.removeItem(cacheKey); // Eliminar caché corrupto
+            }
+        }
+        
+        // Si no hay caché o expiró, hacer petición a GitHub
+        fetch(url)
+            .then(response => {
+                if (!response.ok) {
+                    if (response.status === 404) {
+                        throw new Error(`No se encontraron datos de prensa para el idioma ${userLanguage}`);
+                    }
+                    throw new Error(`Error ${response.status}: ${response.statusText}`);
+                }
+                return response.json();
+            })
+            .then(data => {
+                // Validar que sea un array
+                if (!Array.isArray(data)) {
+                    throw new Error('El formato de los datos de prensa no es válido');
+                }
+                
+                // Guardar en caché
+                localStorage.setItem(cacheKey, JSON.stringify({
+                    timestamp: Date.now(),
+                    data: data
+                }));
+                
+                setPressData(data);
+                setLoading(false);
+            })
+            .catch(error => {
+                console.error('Error fetching press data:', error);
+                
+                // Intentar usar caché aunque haya expirado en caso de error
+                if (cachedData) {
+                    try {
+                        const { data } = JSON.parse(cachedData);
+                        setPressData(data);
+                        setError(`Usando datos en caché. Error al actualizar: ${error.message}`);
+                    } catch (e) {
+                        setError(`No se pudieron cargar los datos de prensa: ${error.message}`);
+                    }
+                } else {
+                    setError(`No se pudieron cargar los datos de prensa: ${error.message}`);
+                    setPressData([]);
+                }
+                
+                setLoading(false);
+            });
+    }, [userLanguage, githubUser, githubRepo, githubBranch]);
+
+    // Renderizado condicional según el estado
+    if (loading) {
+        return (
+            <div className="loading-container">
+                <p className="loading">Cargando reseñas de prensa...</p>
+            </div>
+        );
+    }
+
+    return (
+        <div>
+            {error && (
+                <div className="error-notification">
+                    <p>{error}</p>
+                </div>
+            )}
+            
+            <div className="notescontainer">
+                {pressData.length > 0 ? (
+                    pressData.map(nota => (
+                        <Nota 
+                            key={nota.id} 
+                            media={nota.media} 
+                            text={nota.text} 
+                            who={nota.who} 
+                            palette={palette}
+                        />
+                    ))
+                ) : (
+                    <div className="no-press">
+                        <p>No hay reseñas de prensa disponibles en este idioma.</p>
+                    </div>
+                )}
+            </div>
+        </div>
+    );
+}
+</file>
+
+<file path="src/components/pages/workshops.js">
+import React from 'react';
+
+
+export default function Workshops() {
+    return (
+        <div><h1>Sin novedades futuras.</h1></div>
+    )
+}
+</file>
 
 <file path="src/components/Contact.js">
 import React from 'react';
@@ -133,6 +978,166 @@ export default function Contact() {
     )
 
 }
+</file>
+
+<file path="src/components/Explore.js">
+import React, { useContext, useState } from 'react';
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import { Text, LanguageContext } from '../containers/Language';
+import Bio from './pages/bio'
+import Discography from './pages/discography'
+import Press from './pages/press'
+import Home from './pages/home'
+import Workshops  from './pages/workshops'
+import Contact from './pages/contact'
+import News from './pages/news'
+
+
+
+export default function Explore() {
+
+  
+return (
+  
+  <Routes>
+    <Route path="/discography" element={<Discography/>} />  
+    <Route path="/press" element={<Press/>} />
+    <Route path="/contact" element={<Contact/>} /> 
+    <Route path="/workshops" element={<Workshops/>} /> 
+    <Route path="/bio" element={<Bio/>} />
+    <Route path="/home" element={<Home/>} />
+    <Route path="/news" element={<News/>} />
+    <Route path="/" element={<Navigate replace to="/home" />} />
+  </Routes> 
+  
+)
+
+
+
+
+
+}
+</file>
+
+<file path="src/containers/Language.js">
+import React, { useState, createContext, useContext } from 'react';
+
+import { languageOptions, dictionaryList } from '../languages';
+
+// create the language context with default selected language
+export const LanguageContext = createContext({
+  userLanguage: 'en',
+  dictionary: dictionaryList.en
+});
+
+// it provides the language context to app
+export function LanguageProvider({ children }) {
+  const defaultLanguage = window.localStorage.getItem('rcml-lang');
+  const [userLanguage, setUserLanguage] = useState(defaultLanguage || 'en');
+
+  const provider = {
+    userLanguage,
+    dictionary: dictionaryList[userLanguage],
+    userLanguageChange: selected => {
+      const newLanguage = languageOptions[selected] ? selected : 'en'
+      setUserLanguage(newLanguage);
+      window.localStorage.setItem('rcml-lang', newLanguage);
+    }
+  };
+
+  return (
+    <LanguageContext.Provider value={provider}>
+      {children}
+    </LanguageContext.Provider>
+  );
+};
+
+// get text according to id & current language
+export function Text({ tid }) {
+  const languageContext = useContext(LanguageContext);
+  return languageContext.dictionary[tid] || tid;
+};
+</file>
+
+<file path="src/languages/reviews/drama-es.txt">
+“El arranque de Drama dice tanto de El Estrellero como esas primeras impresiones de una pintura inolvidable. Es pop, no hay duda, pero con la concepción renacentista de construir catedrales de tres minutos.” Reseña de Oscar Jalil para Rolling Stone, 4 estrellas. 
+
+“La experiencia de la escucha es ineludible. Con la nariz siempre al viento y guiados por dos auténticas estrellas del rock argentino la banda de La Plata saca uno de los mejores del año.-“ Reseña en Premio Mr. E. 
+
+“Con melodías pop épicas y embriagadoras, El Estrellero viene desmarcándose como la revelación del año, al punto de que sin siquiera tener editada su música en soporte físico –su disco Drama es todavía solamente digital– fueron invitados a tocar al Festival BUE” Nota en Suplemento Radar por Juan Andrade, Página/12. 
+
+“En la lírica melancólica de Barceló e Irio quizá esté otro de los fuertes de este disco, que cuenta con una poesía que le saca varias cabezas de ventaja al común de las bandas independientes de Argentina” Reseña en Revista NAN 
+
+“Escuchar Drama es, en pocas palabras, brindar por la música. Y tiene un sabor más rico porque es una banda de acá, que suena increíble.” Reseña en IndieHearts. 
+
+“El Estrellero es la nueva sensación del indie platense (y, por qué no, del indie nacional), y está bien que así sea.” Reseña en Billboard 
+
+“Era lógico y esperable, pero sorprendió igual: El Estrellero publicó Drama, uno de los grandes discos del año para el rock argentino.” Reseña en ArteZeta 
+
+“La Plata sigue entregando a los mejores grupos de la escena local y esta banda formada por la dupla autoral y verdaderos veteranos del indie como Lautaro Barceló y Juan Irio (Orquesta de Perros, Miro y su Fabulosa Orquesta de Juguete y The Siniestros) no es la excepción” Reseña en La Nación. 
+
+“El Estrellero llega desde la ciudad de las diagonales; cargados de un repertorio que reivindica el cancionero Pop-Rock, con una vuelta de tuerca que derrocha estilo y personalidad.” Reseña en Pastizales Burning 
+
+“El debut discográfico de El Estrellero muestra un trabajo arduo de ingeniería sonora, producto de cientos de ensayos, y deja en evidencia la creatividad contenida que desborda en cada uno de sus canciones” Reseña en Revista Tiburón 
+
+“En los últimos meses generaron cuanto menos el entusiasmo de todo aquel que haya tenido la oportunidad de escuchar sus canciones.” Reseña en Revista Ondular 
+
+“El Estrellero, banda joven promesa de jóvenes promesas, comienza a cumplir bajo sus propias reglas.” Reseña en Revista Va Viene. 
+
+“La poesía, pieza angular en la composición de ambos, es un flashback a Sui Generis y las letras que Charly García con Nito Mestre escribieron en los comienzos del rock argentino. Más aún, Drama (Fuego Amigo Discos, 2016) –su placa debut- comparte momentos sonoros con aquella banda refinada de Buenos Aires.” Reseña en POTQ, de Chile. 
+
+“El álbum debut de la banda proveniente de La Plata amalgama y conecta mundos a través de melodías diáfanas, poesía romántica y guitarras siderales.” Reseña en Proyecto Spoiler 
+
+“…viaje que es guiado por letras repletas de sentimientos que van dejando canciones donde la melancolía puede convivir con la alegría sin que haya un solo problema.” Reseña en Indie Hoy 
+
+Reconocido como uno de los discos del año por Premio Mr. E, ArteZeta, La Música es del Aire, Pastizales Burning, Revista Ondular, Revista La Tundra. 
+
+Premio a Mejor Canción en “Fan, el programa” por “Rima”.
+</file>
+
+<file path="src/languages/reviews/losmagos-es.txt">
+“Rara vez una banda nueva ofrece un trabajo uniformemente excelente en todos los aspectos: melodías, letras, arreglos vocales, guitarras y concepto. Los dos compositores principales, Lautaro Barceló y Juan Irio, se diferencian pero a la vez confluyen en una música con climas de ensueño y aires de psicodelia” Claudio Kleiman, reseña destacada para Rolling Stone. 
+
+“"Los Magos” es la confirmación de la certeza que El Estrellero es una banda extraordinaria y que su música es de una riqueza y un volumen muy poco frecuentes" Ganador del Premio Mr. E a mejor disco argentino independiente.
+
+“Si el Indec midiera el arco melódico de las bandas de rock, El Estrellero estaría en la punta púrpura de sus tablas de estadísticas” Martín Graziano, Diario La Nación.
+
+“Tu nueva banda favorita” por Los Inrocks. “El deseo de fascinar” elegida entre las 20 mejores canciones de Agosto. 
+
+“Los magos encarna una figura simbólica mediante la cual se rinde homenaje a la alquimia producida entre todo eso que conmueve, desde un líder carismático hasta una obra de arte, y el sujeto encantado” Página /12
+
+“Los Magos, candidato a rankear alto entre lo mejor del año en cuanto a cosecha nacional” ArteZeta
+
+“El Estrellero da un salto con grandes canciones en el álbum “Los Magos”“ Agencia Télam. 
+
+“El disco recién editado por el sello Pontaco se presenta como un manifiesto estético, poético y, también, político.” José Maldonado, Diario El Día de La Plata. 
+
+“Un cúmulo de 11 canciones conversan desde una fuerte apuesta estética, metafórica y política, a través de una encantadora fusión de rock, pop, psicodelia y baile, sin perder de vista el culto a la canción.” AgendArte
+</file>
+
+<file path="src/languages/index.js">
+import en from './en.json';
+import es from './es.json';
+import jp from './jp.json';
+
+export const dictionaryList = { en, es, jp };
+
+export const languageOptions = {
+  en: 'English',
+  es: 'Español',
+  jp: '日本語'
+};
+</file>
+
+<file path="src/App.test.js">
+import { render, screen } from '@testing-library/react';
+import App from './App';
+
+test('renders learn react link', () => {
+  render(<App />);
+  const linkElement = screen.getByText(/learn react/i);
+  expect(linkElement).toBeInTheDocument();
+});
 </file>
 
 <file path="src/repopack-output.txt">
@@ -1973,6 +2978,170 @@ const isLocalhost = Boolean(
   }
 </file>
 
+<file path="src/serviceWorker.js">
+// This optional code is used to register a service worker.
+// register() is not called by default.
+
+// This lets the app load faster on subsequent visits in production, and gives
+// it offline capabilities. However, it also means that developers (and users)
+// will only see deployed updates on subsequent visits to a page, after all the
+// existing tabs open on the page have been closed, since previously cached
+// resources are updated in the background.
+
+// To learn more about the benefits of this model and instructions on how to
+// opt-in, read https://bit.ly/CRA-PWA
+
+const isLocalhost = Boolean(
+    window.location.hostname === 'localhost' ||
+      // [::1] is the IPv6 localhost address.
+      window.location.hostname === '[::1]' ||
+      // 127.0.0.1/8 is considered localhost for IPv4.
+      window.location.hostname.match(
+        /^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/
+      )
+  );
+  
+  export function register(config) {
+    if (process.env.NODE_ENV === 'production' && 'serviceWorker' in navigator) {
+      // The URL constructor is available in all browsers that support SW.
+      const publicUrl = new URL(process.env.PUBLIC_URL, window.location.href);
+      if (publicUrl.origin !== window.location.origin) {
+        // Our service worker won't work if PUBLIC_URL is on a different origin
+        // from what our page is served on. This might happen if a CDN is used to
+        // serve assets; see https://github.com/facebook/create-react-app/issues/2374
+        return;
+      }
+  
+      window.addEventListener('load', () => {
+        const swUrl = `${process.env.PUBLIC_URL}/service-worker.js`;
+  
+        if (isLocalhost) {
+          // This is running on localhost. Let's check if a service worker still exists or not.
+          checkValidServiceWorker(swUrl, config);
+  
+          // Add some additional logging to localhost, pointing developers to the
+          // service worker/PWA documentation.
+          navigator.serviceWorker.ready.then(() => {
+            console.log(
+              'This web app is being served cache-first by a service ' +
+                'worker. To learn more, visit https://bit.ly/CRA-PWA'
+            );
+          });
+        } else {
+          // Is not localhost. Just register service worker
+          registerValidSW(swUrl, config);
+        }
+      });
+    }
+  }
+  
+  function registerValidSW(swUrl, config) {
+    navigator.serviceWorker
+      .register(swUrl)
+      .then(registration => {
+        registration.onupdatefound = () => {
+          const installingWorker = registration.installing;
+          if (installingWorker == null) {
+            return;
+          }
+          installingWorker.onstatechange = () => {
+            if (installingWorker.state === 'installed') {
+              if (navigator.serviceWorker.controller) {
+                // At this point, the updated precached content has been fetched,
+                // but the previous service worker will still serve the older
+                // content until all client tabs are closed.
+                console.log(
+                  'New content is available and will be used when all ' +
+                    'tabs for this page are closed. See https://bit.ly/CRA-PWA.'
+                );
+  
+                // Execute callback
+                if (config && config.onUpdate) {
+                  config.onUpdate(registration);
+                }
+              } else {
+                // At this point, everything has been precached.
+                // It's the perfect time to display a
+                // "Content is cached for offline use." message.
+                console.log('Content is cached for offline use.');
+  
+                // Execute callback
+                if (config && config.onSuccess) {
+                  config.onSuccess(registration);
+                }
+              }
+            }
+          };
+        };
+      })
+      .catch(error => {
+        console.error('Error during service worker registration:', error);
+      });
+  }
+  
+  function checkValidServiceWorker(swUrl, config) {
+    // Check if the service worker can be found. If it can't reload the page.
+    fetch(swUrl)
+      .then(response => {
+        // Ensure service worker exists, and that we really are getting a JS file.
+        const contentType = response.headers.get('content-type');
+        if (
+          response.status === 404 ||
+          (contentType != null && contentType.indexOf('javascript') === -1)
+        ) {
+          // No service worker found. Probably a different app. Reload the page.
+          navigator.serviceWorker.ready.then(registration => {
+            registration.unregister().then(() => {
+              window.location.reload();
+            });
+          });
+        } else {
+          // Service worker found. Proceed as normal.
+          registerValidSW(swUrl, config);
+        }
+      })
+      .catch(() => {
+        console.log(
+          'No internet connection found. App is running in offline mode.'
+        );
+      });
+  }
+  
+  export function unregister() {
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.ready.then(registration => {
+        registration.unregister();
+      });
+    }
+  }
+</file>
+
+<file path=".gitignore">
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+</file>
+
 <file path=".repomixignore">
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
@@ -2001,6 +3170,79 @@ const isLocalhost = Boolean(
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+</file>
+
+<file path="README.md">
+# Getting Started with Create React App
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 </file>
 
 <file path="src/components/pages/bio/bio.txt">
@@ -2216,77 +3458,6 @@ export default function Card({title, band, img, year}) {
   }
 </file>
 
-<file path="src/components/pages/discography/modal.js">
-import React from 'react';
-
-export default function Modal() {
-    return(
-        
-        <div className="modal">
-            <div className="modal-background"></div>
-            <div className="modal-card">
-                <header className="modal-card-head">
-                <p className="modal-card-title">Modal title</p>
-                <button className="delete" aria-label="close"></button>
-                </header>
-                <section className="modal-card-body">
-
-                </section>
-                <footer className="modal-card-foot">
-                <button className="button is-success">Save changes</button>
-                <button className="button">Cancel</button>
-                </footer>
-            </div>
-            <p>HOLAAA</p>
-        </div>
-    )
-}
-</file>
-
-<file path="src/components/pages/discography/stats.js">
-import React from 'react';
-
-export default function Stats({id}) {
-    return(
-    <nav className="level" id={id}>
-        <div className="level-item has-text-centered">
-            <div>
-            <p className="heading">Total</p>
-            <p className="title">3,456</p>
-            </div>
-        </div>
-        <div className="level-item has-text-centered">
-            <div>
-            <p className="heading">Following</p>
-            <p className="title">123</p>
-            </div>
-        </div>
-        <div className="level-item has-text-centered">
-            <div>
-            <p className="heading">Followers</p>
-            <p className="title">456K</p>
-            </div>
-        </div>
-        <div className="level-item has-text-centered">
-            <div>
-            <p className="heading">Likes</p>
-            <p className="title">789</p>
-            </div>
-        </div>
-    </nav>
-
-    )
-    }
-</file>
-
-<file path="src/components/pages/discography/styles.sass">
-@import '~bulma/sass/utilities/_all.sass'
-@import '~bulma/sass/base/_all.sass'
-@import '~bulma/sass/elements/image.sass'
-@import '~bulma/sass/grid/columns.sass'
-@import '~bulma/sass/layout/section.sass'
-</file>
-
 <file path="src/components/pages/news/index.css">
 .notas {
     display:grid;
@@ -2379,63 +3550,6 @@ export default function Note({ title, subtitle, img, body, date, id, color, link
         </div>
     )
 }
-</file>
-
-<file path="src/components/pages/press/falta.txt">
-Los Magos (2017) 
- Claudio Kleiman, reseña destacada para Rolling Stone. 
-
-“"Los Magos” es la confirmación de la certeza que El Estrellero es una banda extraordinaria y que su música es de una riqueza y un volumen muy poco frecuentes" Ganador del Premio Mr. E a mejor disco argentino independiente.
-
-“Si el Indec midiera el arco melódico de las bandas de rock, El Estrellero estaría en la punta púrpura de sus tablas de estadísticas” Martín Graziano, Diario La Nación.
-
-“Tu nueva banda favorita” por Los Inrocks. “El deseo de fascinar” elegida entre las 20 mejores canciones de Agosto. 
-
-“Los magos encarna una figura simbólica mediante la cual se rinde homenaje a la alquimia producida entre todo eso que conmueve, desde un líder carismático hasta una obra de arte, y el sujeto encantado” Página /12
-
-“Los Magos, candidato a rankear alto entre lo mejor del año en cuanto a cosecha nacional” ArteZeta
-
-“El Estrellero da un salto con grandes canciones en el álbum “Los Magos”“ Agencia Télam. 
-
-“El disco recién editado por el sello Pontaco se presenta como un manifiesto estético, poético y, también, político.” José Maldonado, Diario El Día de La Plata. 
-
-“Un cúmulo de 11 canciones conversan desde una fuerte apuesta estética, metafórica y política, a través de una encantadora fusión de rock, pop, psicodelia y baile, sin perder de vista el culto a la canción.” AgendArte
-
-“Drama”, 2016
-
-“El arranque de Drama dice tanto de El Estrellero como esas primeras impresiones de una pintura inolvidable. Es pop, no hay duda, pero con la concepción renacentista de construir catedrales de tres minutos.” Reseña de Oscar Jalil para Rolling Stone, 4 estrellas. 
-
-“La experiencia de la escucha es ineludible. Con la nariz siempre al viento y guiados por dos auténticas estrellas del rock argentino la banda de La Plata saca uno de los mejores del año.-“ Reseña en Premio Mr. E. 
-
-“Con melodías pop épicas y embriagadoras, El Estrellero viene desmarcándose como la revelación del año, al punto de que sin siquiera tener editada su música en soporte físico –su disco Drama es todavía solamente digital– fueron invitados a tocar al Festival BUE” Nota en Suplemento Radar por Juan Andrade, Página/12. 
-
-“En la lírica melancólica de Barceló e Irio quizá esté otro de los fuertes de este disco, que cuenta con una poesía que le saca varias cabezas de ventaja al común de las bandas independientes de Argentina” Reseña en Revista NAN 
-
-“Escuchar Drama es, en pocas palabras, brindar por la música. Y tiene un sabor más rico porque es una banda de acá, que suena increíble.” Reseña en IndieHearts. 
-
-“El Estrellero es la nueva sensación del indie platense (y, por qué no, del indie nacional), y está bien que así sea.” Reseña en Billboard 
-
-“Era lógico y esperable, pero sorprendió igual: El Estrellero publicó Drama, uno de los grandes discos del año para el rock argentino.” Reseña en ArteZeta 
-
-“La Plata sigue entregando a los mejores grupos de la escena local y esta banda formada por la dupla autoral y verdaderos veteranos del indie como Lautaro Barceló y Juan Irio (Orquesta de Perros, Miro y su Fabulosa Orquesta de Juguete y The Siniestros) no es la excepción” Reseña en La Nación. 
-
-“El Estrellero llega desde la ciudad de las diagonales; cargados de un repertorio que reivindica el cancionero Pop-Rock, con una vuelta de tuerca que derrocha estilo y personalidad.” Reseña en Pastizales Burning 
-
-“El debut discográfico de El Estrellero muestra un trabajo arduo de ingeniería sonora, producto de cientos de ensayos, y deja en evidencia la creatividad contenida que desborda en cada uno de sus canciones” Reseña en Revista Tiburón 
-
-“En los últimos meses generaron cuanto menos el entusiasmo de todo aquel que haya tenido la oportunidad de escuchar sus canciones.” Reseña en Revista Ondular 
-
-“El Estrellero, banda joven promesa de jóvenes promesas, comienza a cumplir bajo sus propias reglas.” Reseña en Revista Va Viene. 
-
-“La poesía, pieza angular en la composición de ambos, es un flashback a Sui Generis y las letras que Charly García con Nito Mestre escribieron en los comienzos del rock argentino. Más aún, Drama (Fuego Amigo Discos, 2016) –su placa debut- comparte momentos sonoros con aquella banda refinada de Buenos Aires.” Reseña en POTQ, de Chile. 
-
-“El álbum debut de la banda proveniente de La Plata amalgama y conecta mundos a través de melodías diáfanas, poesía romántica y guitarras siderales.” Reseña en Proyecto Spoiler 
-
-“…viaje que es guiado por letras repletas de sentimientos que van dejando canciones donde la melancolía puede convivir con la alegría sin que haya un solo problema.” Reseña en Indie Hoy 
-
-Reconocido como uno de los discos del año por Premio Mr. E, ArteZeta, La Música es del Aire, Pastizales Burning, Revista Ondular, Revista La Tundra. 
-
-Premio a Mejor Canción en “Fan, el programa” por “Rima”.
 </file>
 
 <file path="src/components/pages/press/index.css">
@@ -2791,120 +3905,144 @@ export default function Home() {
 </file>
 
 <file path="src/components/pages/news.js">
-import React, { useState, useEffect } from 'react';
+import React, { useState, useContext, useEffect } from 'react';
 import Note from './news/note';
 import './news/index.css';
+import { LanguageContext } from '../../containers/Language';
+
 
 export default function News() {
     const [news, setNews] = useState([]);
-
+    const [loading, setLoading] = useState(true);
+    const [error, setError] = useState(null);
+    const { userLanguage } = useContext(LanguageContext);
+    
+    // Configuración GitHub - Asegúrate de ajustar estos valores a tu repositorio
+    const githubUser = 'lauutt';
+    const githubRepo = 'news';
+    const githubBranch = 'main';
+    
+    // Tiempo de expiración del caché (15 minutos)
+    const CACHE_EXPIRATION = 15 * 60 * 1000;
+    
     useEffect(() => {
-        fetch('https://lautarobarcelo.com/api.php')
-            .then(response => response.json())
-            .then(data => setNews(data))
-            .catch(error => console.error('Error:', error));
-    }, []);
+        setLoading(true);
+        setError(null);
+        
+        // URL para acceder al archivo raw en GitHub
+        const url = `https://raw.githubusercontent.com/${githubUser}/${githubRepo}/${githubBranch}/content/news/${userLanguage}.json`;
+        
+        // Intentar obtener del caché primero
+        const cacheKey = `news_cache_${userLanguage}`;
+        const cachedData = localStorage.getItem(cacheKey);
+        
+        if (cachedData) {
+            try {
+                const { timestamp, data } = JSON.parse(cachedData);
+                const isExpired = Date.now() - timestamp > CACHE_EXPIRATION;
+                
+                if (!isExpired) {
+                    // Usar datos en caché si no han expirado
+                    setNews(data);
+                    setLoading(false);
+                    return;
+                }
+            } catch (e) {
+                // Si hay error al analizar el caché, simplemente continuar con la petición
+                console.error('Error parsing cache:', e);
+                localStorage.removeItem(cacheKey); // Eliminar caché corrupto
+            }
+        }
+        
+        // Si no hay caché o expiró, hacer petición a GitHub
+        fetch(url)
+            .then(response => {
+                if (!response.ok) {
+                    // Si el archivo no existe (404) o hay otro error
+                    if (response.status === 404) {
+                        throw new Error(`No se encontró el archivo de noticias para el idioma ${userLanguage}`);
+                    }
+                    throw new Error(`Error ${response.status}: ${response.statusText}`);
+                }
+                return response.json();
+            })
+            .then(data => {
+                // Validar que sea un array
+                if (!Array.isArray(data)) {
+                    throw new Error('El formato de los datos no es válido');
+                }
+                
+                // Guardar en caché
+                localStorage.setItem(cacheKey, JSON.stringify({
+                    timestamp: Date.now(),
+                    data: data
+                }));
+                
+                setNews(data);
+                setLoading(false);
+            })
+            .catch(error => {
+                console.error('Error fetching news:', error);
+                
+                // Intentar usar caché aunque haya expirado en caso de error
+                if (cachedData) {
+                    try {
+                        const { data } = JSON.parse(cachedData);
+                        setNews(data);
+                        setError(`Usando datos en caché. Error al actualizar: ${error.message}`);
+                    } catch (e) {
+                        setError(`No se pudieron cargar las noticias: ${error.message}`);
+                    }
+                } else {
+                    setError(`No se pudieron cargar las noticias: ${error.message}`);
+                    setNews([]);
+                }
+                
+                setLoading(false);
+            });
+    }, [userLanguage, githubUser, githubRepo, githubBranch]);
+
+    // Renderizado condicional según el estado
+    if (loading) {
+        return (
+            <div className="loading-container">
+                <p className="loading">Cargando noticias...</p>
+            </div>
+        );
+    }
 
     return (
-        <div>         
+        <div>
+            {error && (
+                <div className="error-notification">
+                    <p>{error}</p>
+                </div>
+            )}
+            
             <div className='notas'>
-                {news.map(n => (
-                    <Note
-                        linktext={n.linktext}
-                        link={n.link}
-                        key={n.id}
-                        color={n.color}
-                        title={n.title}
-                        subtitle={n.subtitle}
-                        img={n.img}
-                        date={n.date}
-                        body={n.body}
-                        id={n.id}
-                    />
-                ))}
+                {news.length > 0 ? (
+                    news.slice().reverse().map(n => (
+                        <Note
+                            linktext={n.linktext}
+                            link={n.link}
+                            key={n.id}
+                            color={n.color}
+                            title={n.title}
+                            subtitle={n.subtitle}
+                            img={n.img}
+                            date={n.date}
+                            body={n.body}
+                            id={n.id}
+                        />
+                    ))
+                ) : (
+                    <div className="no-news">
+                        <p>No hay noticias disponibles en este idioma.</p>
+                    </div>
+                )}
             </div>
         </div>
     );
-}
-</file>
-
-<file path="src/components/pages/press.js">
-import React from 'react';
-import Nota from './press/nota'
-import notas from './press/press.json'
-import './press/index.css'
-
-
-export default function Press() {
-    const palette = [ "#eddcd2",
-    "#fff1e6",
-    "#fde2e4",
-    "#fad2e1",
-    "#c5dedd",
-    "#dbe7e4",
-    "#f0efeb",
-    "#d6e2e9",
-    "#bcd4e6",
-    "#99c1de"];
-
-   
-    return (
-        <div>  
-            <div className='notescontainer'>
-                {notas.map(nota => <Nota key={nota.id} media={nota.media} text={nota.text} who={nota.who} palette={palette}/>)}
-            </div>
-        </div>
-    )
-}
-</file>
-
-<file path="src/components/pages/workshops.js">
-import React from 'react';
-
-
-export default function Workshops() {
-    return (
-        <div><h1>Sin novedades futuras.</h1></div>
-    )
-}
-</file>
-
-<file path="src/components/Explore.js">
-import React, { useContext, useState } from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
-import { Text, LanguageContext } from '../containers/Language';
-import Bio from './pages/bio'
-import Discography from './pages/discography'
-import Press from './pages/press'
-import Home from './pages/home'
-import Workshops  from './pages/workshops'
-import Contact from './pages/contact'
-import News from './pages/news'
-
-
-
-export default function Explore() {
-
-  
-return (
-  
-  <Routes>
-    <Route path="/discography" element={<Discography/>} />  
-    <Route path="/press" element={<Press/>} />
-    <Route path="/contact" element={<Contact/>} /> 
-    <Route path="/workshops" element={<Workshops/>} /> 
-    <Route path="/bio" element={<Bio/>} />
-    <Route path="/home" element={<Home/>} />
-    <Route path="/news" element={<News/>} />
-    <Route path="/" element={<Navigate replace to="/home" />} />
-  </Routes> 
-  
-)
-
-
-
-
-
 }
 </file>
 
@@ -3053,102 +4191,6 @@ export default function Navbar() {
 }
 </file>
 
-<file path="src/containers/Language.js">
-import React, { useState, createContext, useContext } from 'react';
-
-import { languageOptions, dictionaryList } from '../languages';
-
-// create the language context with default selected language
-export const LanguageContext = createContext({
-  userLanguage: 'en',
-  dictionary: dictionaryList.en
-});
-
-// it provides the language context to app
-export function LanguageProvider({ children }) {
-  const defaultLanguage = window.localStorage.getItem('rcml-lang');
-  const [userLanguage, setUserLanguage] = useState(defaultLanguage || 'en');
-
-  const provider = {
-    userLanguage,
-    dictionary: dictionaryList[userLanguage],
-    userLanguageChange: selected => {
-      const newLanguage = languageOptions[selected] ? selected : 'en'
-      setUserLanguage(newLanguage);
-      window.localStorage.setItem('rcml-lang', newLanguage);
-    }
-  };
-
-  return (
-    <LanguageContext.Provider value={provider}>
-      {children}
-    </LanguageContext.Provider>
-  );
-};
-
-// get text according to id & current language
-export function Text({ tid }) {
-  const languageContext = useContext(LanguageContext);
-  return languageContext.dictionary[tid] || tid;
-};
-</file>
-
-<file path="src/languages/reviews/drama-es.txt">
-“El arranque de Drama dice tanto de El Estrellero como esas primeras impresiones de una pintura inolvidable. Es pop, no hay duda, pero con la concepción renacentista de construir catedrales de tres minutos.” Reseña de Oscar Jalil para Rolling Stone, 4 estrellas. 
-
-“La experiencia de la escucha es ineludible. Con la nariz siempre al viento y guiados por dos auténticas estrellas del rock argentino la banda de La Plata saca uno de los mejores del año.-“ Reseña en Premio Mr. E. 
-
-“Con melodías pop épicas y embriagadoras, El Estrellero viene desmarcándose como la revelación del año, al punto de que sin siquiera tener editada su música en soporte físico –su disco Drama es todavía solamente digital– fueron invitados a tocar al Festival BUE” Nota en Suplemento Radar por Juan Andrade, Página/12. 
-
-“En la lírica melancólica de Barceló e Irio quizá esté otro de los fuertes de este disco, que cuenta con una poesía que le saca varias cabezas de ventaja al común de las bandas independientes de Argentina” Reseña en Revista NAN 
-
-“Escuchar Drama es, en pocas palabras, brindar por la música. Y tiene un sabor más rico porque es una banda de acá, que suena increíble.” Reseña en IndieHearts. 
-
-“El Estrellero es la nueva sensación del indie platense (y, por qué no, del indie nacional), y está bien que así sea.” Reseña en Billboard 
-
-“Era lógico y esperable, pero sorprendió igual: El Estrellero publicó Drama, uno de los grandes discos del año para el rock argentino.” Reseña en ArteZeta 
-
-“La Plata sigue entregando a los mejores grupos de la escena local y esta banda formada por la dupla autoral y verdaderos veteranos del indie como Lautaro Barceló y Juan Irio (Orquesta de Perros, Miro y su Fabulosa Orquesta de Juguete y The Siniestros) no es la excepción” Reseña en La Nación. 
-
-“El Estrellero llega desde la ciudad de las diagonales; cargados de un repertorio que reivindica el cancionero Pop-Rock, con una vuelta de tuerca que derrocha estilo y personalidad.” Reseña en Pastizales Burning 
-
-“El debut discográfico de El Estrellero muestra un trabajo arduo de ingeniería sonora, producto de cientos de ensayos, y deja en evidencia la creatividad contenida que desborda en cada uno de sus canciones” Reseña en Revista Tiburón 
-
-“En los últimos meses generaron cuanto menos el entusiasmo de todo aquel que haya tenido la oportunidad de escuchar sus canciones.” Reseña en Revista Ondular 
-
-“El Estrellero, banda joven promesa de jóvenes promesas, comienza a cumplir bajo sus propias reglas.” Reseña en Revista Va Viene. 
-
-“La poesía, pieza angular en la composición de ambos, es un flashback a Sui Generis y las letras que Charly García con Nito Mestre escribieron en los comienzos del rock argentino. Más aún, Drama (Fuego Amigo Discos, 2016) –su placa debut- comparte momentos sonoros con aquella banda refinada de Buenos Aires.” Reseña en POTQ, de Chile. 
-
-“El álbum debut de la banda proveniente de La Plata amalgama y conecta mundos a través de melodías diáfanas, poesía romántica y guitarras siderales.” Reseña en Proyecto Spoiler 
-
-“…viaje que es guiado por letras repletas de sentimientos que van dejando canciones donde la melancolía puede convivir con la alegría sin que haya un solo problema.” Reseña en Indie Hoy 
-
-Reconocido como uno de los discos del año por Premio Mr. E, ArteZeta, La Música es del Aire, Pastizales Burning, Revista Ondular, Revista La Tundra. 
-
-Premio a Mejor Canción en “Fan, el programa” por “Rima”.
-</file>
-
-<file path="src/languages/reviews/losmagos-es.txt">
-“Rara vez una banda nueva ofrece un trabajo uniformemente excelente en todos los aspectos: melodías, letras, arreglos vocales, guitarras y concepto. Los dos compositores principales, Lautaro Barceló y Juan Irio, se diferencian pero a la vez confluyen en una música con climas de ensueño y aires de psicodelia” Claudio Kleiman, reseña destacada para Rolling Stone. 
-
-“"Los Magos” es la confirmación de la certeza que El Estrellero es una banda extraordinaria y que su música es de una riqueza y un volumen muy poco frecuentes" Ganador del Premio Mr. E a mejor disco argentino independiente.
-
-“Si el Indec midiera el arco melódico de las bandas de rock, El Estrellero estaría en la punta púrpura de sus tablas de estadísticas” Martín Graziano, Diario La Nación.
-
-“Tu nueva banda favorita” por Los Inrocks. “El deseo de fascinar” elegida entre las 20 mejores canciones de Agosto. 
-
-“Los magos encarna una figura simbólica mediante la cual se rinde homenaje a la alquimia producida entre todo eso que conmueve, desde un líder carismático hasta una obra de arte, y el sujeto encantado” Página /12
-
-“Los Magos, candidato a rankear alto entre lo mejor del año en cuanto a cosecha nacional” ArteZeta
-
-“El Estrellero da un salto con grandes canciones en el álbum “Los Magos”“ Agencia Télam. 
-
-“El disco recién editado por el sello Pontaco se presenta como un manifiesto estético, poético y, también, político.” José Maldonado, Diario El Día de La Plata. 
-
-“Un cúmulo de 11 canciones conversan desde una fuerte apuesta estética, metafórica y política, a través de una encantadora fusión de rock, pop, psicodelia y baile, sin perder de vista el culto a la canción.” AgendArte
-</file>
-
 <file path="src/languages/en.json">
 {
     "title": "Lautaro Barceló's portfolio",
@@ -3196,20 +4238,6 @@ Premio a Mejor Canción en “Fan, el programa” por “Rima”.
 }
 </file>
 
-<file path="src/languages/index.js">
-import en from './en.json';
-import es from './es.json';
-import jp from './jp.json';
-
-export const dictionaryList = { en, es, jp };
-
-export const languageOptions = {
-  en: 'English',
-  es: 'Español',
-  jp: '日本語'
-};
-</file>
-
 <file path="src/languages/jp.json">
 {
     "home": " 主 頁 ",
@@ -3235,254 +4263,6 @@ export const languageOptions = {
     "bio_text_2": "また、私のレコーディングスタジオ、エスタジオ・ナカオのウェブサイトにもぜひお越しください。そこで素晴らしい驚きが見つかるかもしれません。"
 
 }
-</file>
-
-<file path="src/App.test.js">
-import { render, screen } from '@testing-library/react';
-import App from './App';
-
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
-</file>
-
-<file path="src/serviceWorker.js">
-// This optional code is used to register a service worker.
-// register() is not called by default.
-
-// This lets the app load faster on subsequent visits in production, and gives
-// it offline capabilities. However, it also means that developers (and users)
-// will only see deployed updates on subsequent visits to a page, after all the
-// existing tabs open on the page have been closed, since previously cached
-// resources are updated in the background.
-
-// To learn more about the benefits of this model and instructions on how to
-// opt-in, read https://bit.ly/CRA-PWA
-
-const isLocalhost = Boolean(
-    window.location.hostname === 'localhost' ||
-      // [::1] is the IPv6 localhost address.
-      window.location.hostname === '[::1]' ||
-      // 127.0.0.1/8 is considered localhost for IPv4.
-      window.location.hostname.match(
-        /^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/
-      )
-  );
-  
-  export function register(config) {
-    if (process.env.NODE_ENV === 'production' && 'serviceWorker' in navigator) {
-      // The URL constructor is available in all browsers that support SW.
-      const publicUrl = new URL(process.env.PUBLIC_URL, window.location.href);
-      if (publicUrl.origin !== window.location.origin) {
-        // Our service worker won't work if PUBLIC_URL is on a different origin
-        // from what our page is served on. This might happen if a CDN is used to
-        // serve assets; see https://github.com/facebook/create-react-app/issues/2374
-        return;
-      }
-  
-      window.addEventListener('load', () => {
-        const swUrl = `${process.env.PUBLIC_URL}/service-worker.js`;
-  
-        if (isLocalhost) {
-          // This is running on localhost. Let's check if a service worker still exists or not.
-          checkValidServiceWorker(swUrl, config);
-  
-          // Add some additional logging to localhost, pointing developers to the
-          // service worker/PWA documentation.
-          navigator.serviceWorker.ready.then(() => {
-            console.log(
-              'This web app is being served cache-first by a service ' +
-                'worker. To learn more, visit https://bit.ly/CRA-PWA'
-            );
-          });
-        } else {
-          // Is not localhost. Just register service worker
-          registerValidSW(swUrl, config);
-        }
-      });
-    }
-  }
-  
-  function registerValidSW(swUrl, config) {
-    navigator.serviceWorker
-      .register(swUrl)
-      .then(registration => {
-        registration.onupdatefound = () => {
-          const installingWorker = registration.installing;
-          if (installingWorker == null) {
-            return;
-          }
-          installingWorker.onstatechange = () => {
-            if (installingWorker.state === 'installed') {
-              if (navigator.serviceWorker.controller) {
-                // At this point, the updated precached content has been fetched,
-                // but the previous service worker will still serve the older
-                // content until all client tabs are closed.
-                console.log(
-                  'New content is available and will be used when all ' +
-                    'tabs for this page are closed. See https://bit.ly/CRA-PWA.'
-                );
-  
-                // Execute callback
-                if (config && config.onUpdate) {
-                  config.onUpdate(registration);
-                }
-              } else {
-                // At this point, everything has been precached.
-                // It's the perfect time to display a
-                // "Content is cached for offline use." message.
-                console.log('Content is cached for offline use.');
-  
-                // Execute callback
-                if (config && config.onSuccess) {
-                  config.onSuccess(registration);
-                }
-              }
-            }
-          };
-        };
-      })
-      .catch(error => {
-        console.error('Error during service worker registration:', error);
-      });
-  }
-  
-  function checkValidServiceWorker(swUrl, config) {
-    // Check if the service worker can be found. If it can't reload the page.
-    fetch(swUrl)
-      .then(response => {
-        // Ensure service worker exists, and that we really are getting a JS file.
-        const contentType = response.headers.get('content-type');
-        if (
-          response.status === 404 ||
-          (contentType != null && contentType.indexOf('javascript') === -1)
-        ) {
-          // No service worker found. Probably a different app. Reload the page.
-          navigator.serviceWorker.ready.then(registration => {
-            registration.unregister().then(() => {
-              window.location.reload();
-            });
-          });
-        } else {
-          // Service worker found. Proceed as normal.
-          registerValidSW(swUrl, config);
-        }
-      })
-      .catch(() => {
-        console.log(
-          'No internet connection found. App is running in offline mode.'
-        );
-      });
-  }
-  
-  export function unregister() {
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.ready.then(registration => {
-        registration.unregister();
-      });
-    }
-  }
-</file>
-
-<file path=".gitignore">
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-
-# testing
-/coverage
-
-# production
-/build
-
-# misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-</file>
-
-<file path="README.md">
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 </file>
 
 <file path="src/components/pages/news/index.json">

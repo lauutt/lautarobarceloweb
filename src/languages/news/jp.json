@@ -1,0 +1,180 @@
+[
+    {
+        "id": 0,
+        "date": "2024-01-09T09:11:43.511Z",
+        "title": "Inicio de 2023",
+        "subtitle": "15/02/2023",
+        "body": "Compusimos y produjimos los hits de Trenque Lauquen, la ahora multipremiada en el mundo película de Laura Citarella. Hicimos lo mismo con la próxima película de La Unión de los Ríos, próxima a estrenar por Amazon Prime. Casi todas fueron escritas en inglés, excepto una que hice en coreano. Grabamos y producimos a 15 bandas semifinalistas de Maravillosa Música, desplegando todo el potencial del estudio para proyectos audiovisuales, siendo quizás el único lugar en los alrededores en el que se puede desarrollar una locura de tal magnitud. Grabamos música incesantemente en Estudio Estudio Nakao. Pasaron docenas de artistas: produje canciones de Juan Irio, Coneus, Niños Knoll.",
+        "img": "https://nakao.studio/wp-content/uploads/2022/09/IMG_0032-1024x768.jpeg",
+        "color": "#4cc9f0",
+        "link": "www.google.com",
+        "linktext": "Link a Instagram"
+        
+    },
+    {
+        "id": 1,
+        "date": "2012-04-23T18:25:43.511Z",
+        "title": "Lo mejor del siglo",
+        "subtitle": "03/03/2023",
+        "body": "Este mes, eligieron una canción que escribí para El Estrellero como una de las mejores 300 canciones del siglo XXI en la Rolling Stone, en el puesto 237, OK Amigo",
+        "img": "https://es.rollingstone.com/wp-content/uploads/2023/02/300-canciones_web_6.jpg",
+        "color": "#4cc999",
+        "link": "https://es.rollingstone.com/arg-300-canciones-rock-argentino-siglo-xxi-101-300/",
+        "linktext": "Link a RS"
+        
+    },
+    {
+        "id": 2,
+        "date": "2012-04-23T18:25:43.511Z",
+        "title": "Tutorial GPT-4",
+        "subtitle": "20/03/2023",
+        "body": "¿Te gustaría hablar con la IA más avanzada? En mi último artículo en Medium, expliqué cómo programar una aplicación de chat utilizando la tecnología de GPT-4. Recibí varias consultas sobre cómo tener una ventana de chat con GPT-4, y pensé que qué mejor manera de hacerlo que aprovechando su propia tecnología.\n",
+        "img": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*hycRzJzSO2VtLTNf49tlEA.png",
+        "color": "#4cc9f0",
+        "link": "https://medium.com/@lautarobarcelo/hablando-con-gpt-4-3cd897acbfcc",
+        "linktext": "Link a Medium"
+        
+    },
+    {
+        "id": 3,
+        "date": "2012-04-23T18:25:43.511Z",
+        "title": "Vida Sentimental",
+        "subtitle": "04/04/2023",
+        "body": "Hoy salió 'Vida Sentimental', disco que produje junto a Juan Irio y trabajamos gran parte en Estudio Nakao. La canción que comparto es una de a las que más cariño le tengo. La puse en loop mientras escribo esto. Todos los días recibíamos pistas de amigos y nuevos conocidos que colaboraron para que el disco sea lo que es. Otra maravilla de Juan. Mañana se estrena 'Blondi', la ópera prima de Dolores Fonzi en el cine Gaumont, en el marco del BAFICI. Hice varios tracks musicales como parte Sounds Like a Hit Factory, entre ellos, una canción original que escribí en coreano. Cuando digo que la canción es en coreano, ya empiezo a escuchar la sirena policial en mi mente. No se molesten y disfruten. Por otro lado, Trenque Lauquen de El Pampero Cine hoy se estrena en el Lincoln Center de NY y pronto en cines comerciales de EEUU, así que otras canciones que hicimos con SLAHF están sonando en cualquier lado.",
+        "img": "https://f4.bcbits.com/img/a1200161312_10.jpg",
+        "color": "#4cc999",
+        "link": "https://open.spotify.com/track/6lbE744hHavvSZtX2xTVUl?si=28d715ca365c4878",
+        "linktext": "Link a Spotify"
+        
+    },
+    {
+        "id": 4,
+        "date": "2012-04-23T18:25:43.511Z",
+        "title": "En TV Universidad",
+        "subtitle": "04/04/2023",
+        "body": "Empecé mi columna sobre IA en la AM de Radio Provincia, en el programa 'Mañana es Mejor' los días martes a las 10AM y tres semanas después me llamaron de la tele para una entrevista.",
+        "img": "https://i.ytimg.com/vi/nCnY0EpduJM/maxresdefault.jpg",
+        "color": "#4cc9f0",
+        "link": "https://www.youtube.com/watch?v=nCnY0EpduJM",
+        "linktext": "Entrevista"
+        
+    },
+    {
+        "id": 5,
+        "date": "2012-04-23T18:25:43.511Z",
+        "title": "Nota en Rolling Stone",
+        "subtitle": "09/06/2023",
+        "body": "Me entrevistó Joaquin Vismara para Rolling Stone Argentina sobre los dos mundos que habito y que involuntariamente se retroalimentan. Hablé como casi/casi/casi Analista de Inteligencia Artificial en la Universidad de Palermo, y con mi trayectoria como músico y productor a cuestas, encontrando hoy su hábitat en Estudio Nakao. Hablamos de guitarras, de creatividad y de cómo la IA (desde siempre) aporta cada vez más herramientas, cómo también narrativas bizarras para el porvenir.",
+        "img": "https://es.rollingstone.com/wp-content/uploads/2023/06/01-APERTURA-WEB-aimusic_-8-RNDR-Martinez-.jpg",
+        "color": "#4cc999",
+        "link": "https://es.rollingstone.com/arg-inteligencia-artificial-musica/",
+        "linktext": "Nota"
+        
+    },
+    {
+        "id": 6,
+        "date": "2012-04-23T18:25:43.511Z",
+        "title": "Niños Knoll",
+        "subtitle": "09/06/2023",
+        "body": "Cambios de planes y de prioridades nos obligaron a que este disco se retrase, pero que nunca se abandone.Sabíamos que no había un público expectante y también sabíamos que tampoco teníamos las herramientas para atraerlos. La prioridad siempre fue sobrevivir y que los proyectos se auto-sustenten. Al verse licuado por las demandas cotidianas, Niños Knoll empezó a convertirse en una promesa incumplida que con el tiempo nos empezó a pesar. Mientras hacíamos este disco, sentí como pocas veces la obligación de terminarlo y mostrarlo. Pero no llegamos en tiempo y forma. En 2019 avanzamos algo con Pablo, pero el disco parecía lejano e indomable. Terminamos aplazándolo nuevamente. Durante la pandemia, me metí en el estudio algunos días a ver si podía deformarlo, encontrarle la vuelta. Faltaban mis coros y guitarras que habíamos ensayado, pero en lugar de eso metí máquinas, bajos, ruidos. Terminé asqueado, odiado y lo volví a abandonar. A fines de 2022 nos juntamos con @pablomatias_vidal para terminarlo y nos sorprendimos al entender que el disco estaba mucho más cerca de lo que creíamos. Lo pudimos terminar en @nakao.estudio. Un disco solitario, nocturno, cerrado, narraciones que son maquinaciones, con el sonido de una íntima banda acústica glitcheada por el paso del tiempo y el uso de máquinas y plugins indebidos.",
+        "img": "https://i.scdn.co/image/ab67616d0000b273668ccb6135af8890b1a75675",
+        "color": "#4cc9f0",
+        "link": "https://open.spotify.com/intl-es/album/1MhKxVDekVJDJyMMUe86ae",
+        "linktext": "Spotify"
+        
+    },
+    {
+        "id": 7,
+        "date": "2012-04-23T18:25:43.511Z",
+        "title": "La copia del padre",
+        "subtitle": "09/06/2023",
+        "body": "Publiqué una nota en elDiarioAR. Hablo un poco sobre IA, un poco sobre la vida eterna, un poco sobre recuperar lo que se perdió para siempre.",
+        "img": "https://static.eldiario.es/clip/38de23dd-cac6-435c-8d0b-96aacb91351c_16-9-aspect-ratio_default_0.webp",
+        "color": "#4cc999",
+        "link": "https://www.eldiarioar.com/tecnologia/copia-padre_130_10360216.html",
+        "linktext": "Nota"
+        
+    },
+    {
+        "id": 8,
+        "date": "2012-04-23T18:25:43.511Z",
+        "title": "Cuerpo eléctrico",
+        "subtitle": "16/07/2023",
+        "body": "Mi nuevo texto para elDiarioAR. El año que viene, quizás, tendremos a disposición juegos con personajes que solamente respeten arcos y no tengan cargada ninguna línea de diálogo. ¿Podremos conversar y compartir junto a nuestros camaradas digitales grandes epopeyas de 80, 100, 200 horas sin sentir ningún tipo de apego? ¿Podremos estar expuestos a su compañía y luego dejar de pagar la suscripción que los mantenga vivos en la nube? ",
+        "img": "https://static.eldiario.es/clip/664ab957-3fd3-47ac-884a-7ade464561e3_16-9-discover-aspect-ratio_default_0.webp",
+        "color": "#4cc9f0",
+        "link": "https://www.eldiarioar.com/opinion/amo-cuerpo-electrico_1_10381541.html",
+        "linktext": "Nota"
+        
+    },
+    {
+        "id": 9,
+        "title": "La obra humana", 
+        "subtitle": "30/07/2023",
+        "body": "Mi nuevo texto para elDiarioAR. El año que viene, quizás, tendremos a disposición juegos con personajes que solamente respeten arcos y no tengan cargada ninguna línea de diálogo. ¿Podremos conversar y compartir junto a nuestros camaradas digitales grandes epopeyas de 80, 100, 200 horas sin sentir ningún tipo de apego? ¿Podremos estar expuestos a su compañía y luego dejar de pagar la suscripción que los mantenga vivos en la nube? ",
+        "img": "https://static.eldiario.es/clip/fc1f3df9-d1bb-4e17-b1bb-653f1667aea0_16-9-discover-aspect-ratio_default_0.webp",
+        "color": "#4cc999",
+        "link": "https://www.eldiarioar.com/tecnologia/copia-padre_130_10360216.html",
+        "linktext": "Nota"
+        
+    },
+    {
+        "id": 10,
+        "date": "2012-04-23T18:25:43.511Z",
+        "title": "Premio a Mejor Música", 
+        "subtitle": "10/09/2023",
+        "body": "Además de obtener el máximo galardón (Mejor Película) y Mejor directora para nuestra amada Laura Citarella, Trenque Lauquen recibió el premio a Mejor Música en la Competencia Internacional del @ficpba. Compartimos el premio con Gabriel Chwojnik, responsable de las piezas instrumentales del film. Con Ramiro compusimos, produjimos y grabamos una decena de canciones que suenan a lo largo del film, durante una maratónica semana en mi querido Estudio Nakao. Nuevas canciones seguirán sonando en futuras películas.",
+        "img": "https://www.otroscines.com/images/fotos/ficpba-2023-ganadores-1000.jpg",
+        "color": "#4cc9f0",
+        "link": "https://www.escribiendocine.com/noticias/2023/09/10/16311-todos-los-ganadores-del-ficpba-festival-internacional-de-cine-de-la-provincia-de-buenos-aires",
+        "linktext": "Nota"
+        
+    },
+    {
+        "id": 11,
+        "title": "Los tonos mayores", 
+        "subtitle": "10/10/2023",
+        "body": "Mañana se estrena en el Festival Internacional de Cine de Mar del Plata, una nueva película para la que tuve el gusto de componer y producir canciones. Su directora es talentosísima, así que viajé al estreno muy entusiasmado 🦆 ",
+        "img": "https://img.peliplat.com/api/resize/v1?imagePath=peliplat/article/20231109/e3d0fab7dee568d8eebbdc32032ab995.png&source=s3-peliplat&mode=LFIT&width=600&height=600&limit=false&c=1.jpg",
+        "color": "#4cc999",
+        "link": "https://www.mardelplatafilmfest.com/38/es/pelicula/los-tonos-mayores",
+        "linktext": "Link a festival"
+        
+    },
+    {
+        "id": 12,
+        "date": "2012-04-23T18:25:43.511Z",
+        "title": "Entrevista en UMDG", 
+        "subtitle": "09/12/2023",
+        "body": "Estuve conversando con Ariel Valeri en Un Montón De Gente por Radio Universidad y conté sobre mis proyectos, mis estudios y mis resoluciones para 2024. Rompimos un récord de duración, no sé si es algo bueno o malo.",
+        "img": "https://i.ytimg.com/vi/wjTMXw-m68c/maxresdefault.jpg",
+        "color": "#4cc9f0",
+        "link": "https://www.youtube.com/watch?v=wjTMXw-m68c",
+        "linktext": "Nota"
+        
+    },
+    {
+        "id": 13,
+        "date": "2012-04-23T18:25:43.511Z",
+        "title": "Biznaga de Plata en Málaga y baile en Berlinale", 
+        "subtitle": "08/03/2024",
+        "body": "Me contaron que Los Tonos Mayores fue un éxito en la Berlinale y que la gente aplaudió y bailó con Estimated Friend, una de las canciones que escribí para la película y que forma parte de los créditos. Pero lo más importante, es que en Málaga ganaron la Biznaga de Plata a Mejor Película Iberoamericana. Aviso cuando se estrene por estas coordenadas.",
+        "img": "https://gpsaudiovisual.com/wp-content/uploads/2024/03/Photocall-Los-Tonos-Mayores_Ana-Belen-Fernandez-1-1024x683.jpg",
+        "color": "#4cc999",
+        "link": "https://x.com/LautaroBarcelo/status/1765835103471538328?s=20",
+        "linktext": "Baile"
+        
+    },
+    {
+        "id": 14,
+        "date": "2012-04-23T18:25:43.511Z",
+        "title": "Una infancia y Akira Toriyama", 
+        "subtitle": "11/12/2023",
+        "body": "Me pidieron un texto a propósito de la muerte de Akira Toriyama. Fue, sin lugar a dudas, el desconocido más influyente de mi infancia y adolescencia. Le dediqué unas palabras a su obra, Dragon Ball y también a Lautaro del pasado para Diario Contexto.",
+        "img": "https://www.diariocontexto.com.ar/wp-content/uploads/2024/03/akira-1.jpg",
+        "color": "#4cc9f0",
+        "link": "https://www.diariocontexto.com.ar/abro-hilo-soy-goku/",
+        "linktext": "Nota"
+        
+    }
+]
