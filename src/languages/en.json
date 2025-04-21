@@ -7,12 +7,15 @@
             "computer": "Computers"
         }
     ],
-    "bio": "bio",
+    "bio": "about me",
     "discography": "discography",
     "press": "press",
     "news": "news",
     "index": "index",
     "home": "H O M E",
-    "design": "site by"
-
+    "design": "site by",
+    "bio_text": "Hello! I built this minimalist website to connect with people interested in my work. I'll be brief, but you're welcome to contact me to delve into any topic of your interest. Until 2019, I dedicated myself almost exclusively to music, taking on nearly every possible role for a musician and cultural manager. Today, my work involves producing and recording artists at Nakao Studio, as well as teaching composition and songwriting to students scattered across three continents. Simultaneously, I am an AI Analyst, and in 2024, I plan to graduate with a degree. I worked in the IT industry for several years, but my exploration of AI fundamentals only began at the start of the 2020 pandemic. I discovered in AI the possibility of combining all my interests—a versatile toolbox that serves me both to discover new worlds and revisit others. In addition to delving into ML algorithms, I also make time to program some other things, like this simple React SPA, my little summer project.",
+    "bio_text_2": "In addition, I invite you to visit the website of my recording studio, Nakao Studio, where you can find great wonders.",
+    "hola": "hola",
+    "contact": "contact"
 }

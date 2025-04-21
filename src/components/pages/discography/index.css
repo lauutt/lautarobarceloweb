@@ -1,11 +1,8 @@
-.card {
-    grid-column-start: 1;
-    grid-column-end: 3;
-}
+
 
 .albumcontainer {
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto;
     row-gap: 50px;
     column-gap: 10px;
 }
@@ -17,3 +14,11 @@
 #stats {
     margin: 1em;
 }
+
+@media (max-width: 768px) {
+    .albumcontainer {
+        grid-template-columns: auto; /* Ocupa todo el ancho disponible */
+      /* Cambios de estilo para dispositivos móviles */
+    }
+  }
+  

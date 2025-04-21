@@ -1,10 +1,47 @@
 .navbar-item {
-    background-color: rgb(7, 7, 7);
-    color: rgb(247, 248, 248);
+    background-color: rgb(255, 255, 255);
+    color: rgb(3, 3, 3);
+    font-weight: bolder;
+}
+
+.navbar-item.hover {
+    color:blueviolet;
+    font-weight: bolder;
 }
 
 .navvvvv {
-    padding-top: 1%;
+    padding-top: 3%;
     margin-top: 1em;
     margin-bottom: 2em;
+
 }
+
+.contenido-wrapper {
+    position: relative;
+}
+
+
+
+/* Estilos normales de la barra de navegación */
+.navbar {
+    /* Tus estilos normales aquí */
+    transition: all 0.3s ease; /* Esto agrega una transición suave al cambio */
+}
+
+.navbar-end {
+    
+}
+  /* Estilos cuando la barra de navegación se desplaza */
+.navbar-scrolled {
+    /* Estilos diferentes, por ejemplo, hacerla fija en la parte superior */
+    color:black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff; /* Cambia el color de fondo si es necesario */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Agrega sombra para resaltar */
+    z-index: 1000; /* Asegúrate de que esté por encima del resto del contenido */
+    /* Otros estilos que desees aplicar cuando esté desplazada */
+}
+  

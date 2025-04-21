@@ -1,16 +1,15 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import { Text } from '../containers/Language';
 
-
 export default function Footer() {
-    return (
-        <div>
-            <div className='block' style={{marginTop:"5%"}}>
-                <div className='subtitle'>
-                <p style={{backgroundColor:'lightblue', color:'black'}}> <Text tid='design'/> lauutt </p>
-                </div>
-            </div>
-        </div>
-    )
-
+  return (
+    <footer className="footer">
+      <div className="content has-text-centered">
+        <p className="accent-text">
+          <Text tid='design' /> lauutt
+        </p>
+        <p>© 2024 Lautaro Barceló. None rights reserved.</p>
+      </div>
+    </footer>
+  );
 }

@@ -5,3 +5,10 @@
     column-gap: 1%;
     margin-bottom: 15%;
 }
+
+@media (max-width: 768px) {
+    .notescontainer {
+        grid-template-columns: auto; /* Ocupa todo el ancho disponible */
+        margin-bottom: 1%; /* Cambios de estilo para dispositivos móviles */
+    }
+  }

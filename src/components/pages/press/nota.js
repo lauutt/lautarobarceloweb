@@ -3,7 +3,6 @@ import React from 'react';
 
 export default function Nota({text, media, who, palette}) {
     const randomColour = palette[Math.floor(Math.random() * palette.length)]
-    console.log(palette)
 
     return (
         <div>

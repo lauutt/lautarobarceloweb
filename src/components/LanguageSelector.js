@@ -11,16 +11,17 @@ export default function LanguageSelector() {
 
   return (
     
-        
-            <div className="select is-small">
-                <select
-                onChange={handleLanguageChange}
-                value={userLanguage}
-                >
-                {Object.entries(languageOptions).map(([id, name]) => (
-                    <option key={id} value={id}>{name}</option>
-                ))}
-                </select>
+            <div className='navbar-item'>
+              <div className="select is-primary" >
+                  <select
+                  onChange={handleLanguageChange}
+                  value={userLanguage}
+                  >
+                  {Object.entries(languageOptions).map(([id, name]) => (
+                      <option key={id} value={id}>{name}</option>
+                  ))}
+                  </select>
+              </div>
             </div>
         
   );

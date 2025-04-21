@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'bulma/css/bulma.min.css';
-import './index.css'
+
 import { BrowserRouter as Router } from "react-router-dom";
-import "./components/pages/discography/styles.sass";
+
 
 
 ReactDOM.render(<Router><App/></Router>, document.getElementById('root'));

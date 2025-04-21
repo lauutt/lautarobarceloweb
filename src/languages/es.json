@@ -7,12 +7,14 @@
             "computer": "Computación"
         }
     ],
-    "bio": "biografía",
+    "bio": "sobre mí",
     "discography": "discografía",
     "press": "prensa",
     "news": "noticias",
     "index": "inicio",
     "home": "P R I N C I P A L",
-    "design": "sitio por"
-    
+    "design": "sitio por",
+    "bio_text": "¡Hola! Hasta 2019 me dediqué casi exclusivamente a la música, ocupando casi todos los roles posibles arriba y abajo del escenario. Escribí canciones, dirigí un sello, toqué en muchas bandas, produje otras, fui ingeniero de audio, etc, etc, etc. Actualmente, produzco y grabo artistas en Estudio Nakao, además de impartir clases de composición y escritura de canciones a alumnos dispersos en tres continentes. \nParalelamente, soy Analista en IA y en este 2024 planeo graduarme de Licenciado. Trabajé en la industria de IT hace varios años, pero mi acercamiento a los fundamentos de la IA recién ocurrió al inicio de la pandemia de 2020. Descubrí en la IA la posibilidad de amalgamar todos mis intereses; una caja de herramientas versátil que me sirve tanto para descubrir nuevos mundos como para revisitar otros. Además de profundizar en algoritmos de ML, también me doy tiempo para programar algunas otras cosas como esta sencilla SPA en React, mi pequeño proyecto de verano. ",
+    "bio_text_2": "Por la sección de noticias se enterarán de otras cosas que hago. También existen los buscadores y las redes, aunque de vez en cuando mi perfil se ve atentado por algún homónimo. Les deseo suerte en la búsqueda.",
+    "contact": "contacto"
 }
