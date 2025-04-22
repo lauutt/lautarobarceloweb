@@ -1,0 +1,54 @@
+/* src/styles/navbar.css */
+:root {
+    --navbar-height: 70px;
+  }
+  
+  .navbar-container {
+    background-color: var(--honeydew);
+    width: 100%;
+    border-bottom: 1px solid var(--berkeley-blue);
+    position: relative; /* Cambiado de fixed a relative */
+    z-index: 30;
+    height: var(--navbar-height);
+  }
+  
+  .navbar {
+    background-color: var(--honeydew) !important; /* Color uniforme */
+    padding: 3rem 2rem;
+    height: var(--navbar-height);
+  }
+  
+  /* Quitar is-fixed-top y asegurar que se vea sobre un fondo blanco */
+  .navbar, .navbar-menu, .navbar-start, .navbar-end {
+    background-color: var(--honeydew) !important;
+  }
+  
+  /* Resto del CSS similar al anterior pero asegurando colores uniformes */
+  .navbar-item {
+    font-family: var(--font-mono);
+    color: var(--berkeley-blue) !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    padding: 0.7rem 1.2rem;
+    background-color: transparent !important;
+  }
+  
+  .navbar-item:hover {
+    background-color: rgba(229, 57, 53, 0.05) !important;
+    color: var(--red-pantone) !important;
+  }
+  
+  /* Estilos mejorados para el contenido principal */
+  main.app-content {
+    padding-top: 1rem; /* Espacio después del navbar */
+  }
+  
+  /* Asegurar que el menú móvil no se superponga */
+  @media screen and (max-width: 1023px) {
+    .navbar-menu {
+      position: absolute;
+      width: 100%;
+      top: var(--navbar-height);
+      left: 0;
+      box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
+    }
+  }

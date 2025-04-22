@@ -1,0 +1,80 @@
+/* src/styles/layout.css */
+.page-title {
+    font-family: var(--font-mono);
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .page-title::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 80px;
+    height: 4px;
+    background-color: var(--red-pantone);
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+  
+  /* Personalización de Navbar */
+  .navbar {
+    background-color: white;
+    border-bottom: var(--retro-border);
+    margin-bottom: 2rem;
+  }
+  
+  .navbar-item {
+    font-family: var(--font-mono);
+    font-weight: bold;
+  }
+  
+  /* Footer personalizado */
+  .footer {
+    border-top: var(--retro-border);
+    padding: 2rem 0;
+    margin-top: 4rem;
+    text-align: center;
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+  }
+
+  /* Contenedor principal de la aplicación */
+.app-container {
+    max-width: 90%; /* Ancho máximo */
+    margin: 0 auto; /* Centrado horizontal */
+    padding: 0 2rem; /* Espacio en los bordes */
+    background-color: var(--honeydew);
+  }
+  
+  /* Contenedor de contenido principal */
+  .app-content {
+    padding: 1rem 0; /* Espacio vertical */
+  }
+  
+  /* Ajustes responsive */
+  @media screen and (max-width: 768px) {
+    .app-container {
+      padding: 0 1rem; /* Menos padding en móvil */
+    }
+  }
+  
+  /* Contenedores de secciones específicas */
+  .section-container {
+    max-width: 90%; /* Un poco más estrecho que el contenedor principal */
+    margin: 0 auto;
+    padding: 1.5rem 0;
+  }
+  
+  /* Para páginas con contenido más denso como Bio */
+  .narrow-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1.5rem 0;
+  }

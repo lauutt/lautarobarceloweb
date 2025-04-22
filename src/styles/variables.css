@@ -1,0 +1,35 @@
+/* src/styles/variables.css */
+:root {
+    --red-pantone: #e63946;
+    --honeydew: #fcfcfc;
+    --non-photo-blue: #a8dadc;
+    --cerulean: #457b9d;
+    --berkeley-blue: #1d3557;
+    
+    /* Sombras y espaciado */
+    --card-shadow: 0 4px 8px rgba(29, 53, 87, 0.1);
+    --hover-shadow: 0 6px 12px rgba(29, 53, 87, 0.2);
+    --retro-border: 2px solid var(--berkeley-blue);
+    --space-md: 1rem;
+    --space-lg: 1.5rem;
+    
+    /* Fuentes */
+    --font-mono: 'Courier New', monospace;
+    --font-sans: 'Helvetica Neue', sans-serif;
+  }
+  
+  body {
+    background-color: var(--honeydew);
+    color: var(--berkeley-blue);
+    font-family: var(--font-sans);
+  }
+  
+  a {
+    color: var(--cerulean);
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: var(--red-pantone);
+  }

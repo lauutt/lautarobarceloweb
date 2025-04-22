@@ -26,8 +26,11 @@ export default function Home() {
     }, []);
 
     return (
+      <div className='section-container'>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             {randomImage && <img  key={randomImage} src={randomImage} alt="Imagen al azar"></img>}
         </div>
+      </div>
+      
     );
 }

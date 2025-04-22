@@ -1,0 +1,67 @@
+/* src/styles/discography.css */
+.albumcontainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+  }
+  
+  .album-card {
+    background-color: white;
+    border: var(--retro-border);
+    box-shadow: 4px 4px 0 var(--berkeley-blue);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    overflow: hidden;
+  }
+  
+  .album-card:hover {
+    transform: translate(-4px, -4px);
+    box-shadow: 8px 8px 0 var(--berkeley-blue);
+  }
+  
+  .album-image {
+    position: relative;
+    overflow: hidden;
+    padding-top: 100%; /* Mantiene aspecto cuadrado */
+  }
+  
+  .album-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .album-info {
+    padding: 1rem;
+    background-color: white;
+    border-top: var(--retro-border);
+  }
+  
+  .album-band {
+    font-family: var(--font-mono);
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: var(--red-pantone);
+  }
+  
+  .album-title {
+    font-family: var(--font-sans);
+    font-size: 1.1rem;
+    margin-top: 0.25rem;
+  }
+  
+  .album-year {
+    font-family: var(--font-mono);
+    color: var(--cerulean);
+    margin-top: 0.5rem;
+  }
+  
+  @media (max-width: 768px) {
+    .albumcontainer {
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 1.5rem;
+    }
+  }
