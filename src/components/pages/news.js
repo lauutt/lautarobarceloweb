@@ -88,9 +88,11 @@ export default function News() {
 
   if (loading) {
     return (
-      <div className="loading-container">
-        <p className="loading">Cargando noticias...</p>
-      </div>
+        <div className='section-container'>
+            <div className="loading-container">
+                <p className="loading">Cargando noticias...</p>
+            </div>
+        </div>
     );
   }
 

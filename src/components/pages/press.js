@@ -18,7 +18,7 @@ export default function Press() {
     
     // Configuración GitHub - Usa los mismos valores que en News.js
     const githubUser = 'lauutt';
-    const githubRepo = 'website-content';
+    const githubRepo = 'news';
     const githubBranch = 'main';
     
     // Tiempo de expiración del caché (15 minutos)
@@ -103,38 +103,39 @@ export default function Press() {
     if (loading) {
         return (
             <div className="loading-container">
+                <div className='section-container'>
                 <p className="loading">Cargando reseñas de prensa...</p>
+                </div>
             </div>
         );
     }
 
     return (
-        <div className='section-container'>
-
-            <div>
-                {error && (
-                    <div className="error-notification">
-                        <p>{error}</p>
+        <div>
+            <div className='section-container'> 
+            {error && (
+                <div className="error-notification">
+                    <p>{error}</p>
+                </div>
+            )}
+            
+            <div className="notescontainer">
+                {pressData.length > 0 ? (
+                    pressData.map(nota => (
+                        <Nota 
+                            key={nota.id} 
+                            media={nota.media} 
+                            text={nota.text} 
+                            who={nota.who} 
+                            palette={palette}
+                        />
+                    ))
+                ) : (
+                    <div className="no-press">
+                        <p>No hay reseñas de prensa disponibles en este idioma.</p>
                     </div>
                 )}
-                
-                <div className="notescontainer">
-                    {pressData.length > 0 ? (
-                        pressData.map(nota => (
-                            <Nota 
-                                key={nota.id} 
-                                media={nota.media} 
-                                text={nota.text} 
-                                who={nota.who} 
-                                palette={palette}
-                            />
-                        ))
-                    ) : (
-                        <div className="no-press">
-                            <p>No hay reseñas de prensa disponibles en este idioma.</p>
-                        </div>
-                    )}
-                </div>
+            </div>
             </div>
         </div>
     );

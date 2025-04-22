@@ -1,74 +1,102 @@
-/* src/styles/press.css */
+/* src/styles/press.css - Nuevo estilo */
 .notescontainer {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 1.5rem;
-    margin: 2rem 0;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0 4rem 0;
   }
   
   .press-card {
-    background-color: var(--honeydew);
-    border: var(--retro-border);
-    box-shadow: 4px 4px 0 var(--berkeley-blue);
-    padding: 1.5rem;
+    background-color: white;
+    border: none;
+    box-shadow: none;
+    padding: 2rem;
     position: relative;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    transition: transform 0.3s ease;
     height: 100%;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
   }
   
   .press-card:hover {
-    transform: translate(-4px, -4px);
-    box-shadow: 8px 8px 0 var(--berkeley-blue);
+    transform: translateY(-8px);
+  }
+  
+  .press-card::before {
+    content: '"';
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    font-family: var(--font-sans);
+    font-size: 5rem;
+    line-height: 1;
+    color: var(--berkeley-blue);
+    opacity: 0.1;
   }
   
   .press-quote {
     font-family: var(--font-sans);
-    font-size: 0.95rem;
+    font-size: 1.1rem;
     line-height: 1.6;
     margin-bottom: 1.5rem;
     flex-grow: 1;
+    position: relative;
+    color: var(--berkeley-blue);
   }
   
   .press-source {
     font-family: var(--font-mono);
-    font-size: 0.85rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+    letter-spacing: 1px;
     margin-top: auto;
-    padding: 0.5rem;
-    background-color: var(--non-photo-blue);
-    display: inline-block;
+    padding: 0.5rem 0;
+    color: var(--cerulean);
+    text-transform: uppercase;
   }
   
   .press-album {
     margin-top: 0.75rem;
     display: inline-block;
-    padding: 0.4rem 0.75rem;
+    padding: 0.6rem 1rem;
     background-color: var(--berkeley-blue);
     color: white;
     font-family: var(--font-mono);
     font-size: 0.8rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
   }
   
-  /* Variación de colores */
+  .press-card:hover .press-album {
+    background-color: var(--red-pantone);
+  }
+  
+  /* Variación de colores - más parecidos a News */
   .press-card:nth-child(4n+1) {
-    background-color: var(--non-photo-blue);
-  }
-  
-  .press-card:nth-child(4n+2) {
     background-color: var(--honeydew);
   }
   
+  .press-card:nth-child(4n+2) {
+    background-color: var(--non-photo-blue);
+  }
+  
   .press-card:nth-child(4n+3) {
-    background-color: #ffdbd6; /* Tinte claro de red-pantone */
+    background-color: rgba(230, 57, 70, 0.1); /* --red-pantone muy claro */
   }
   
   .press-card:nth-child(4n+4) {
-    background-color: #d1e8eb; /* Variación del non-photo-blue */
+    background-color: rgba(69, 123, 157, 0.1); /* --cerulean muy claro */
   }
   
   @media (max-width: 768px) {
     .notescontainer {
       grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+    
+    .press-card {
+      padding: 1.5rem;
     }
   }
